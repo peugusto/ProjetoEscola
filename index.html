@@ -5,48 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Desempenho Escolar no Brasil (2015–2024) · Projeto G1</title>
   <meta name="description" content="Projeto de análise e visualização de dados com Python sobre desempenho escolar no Brasil.">
-  <style>
-    :root { --azul: #264653; --verde: #2A9D8F; --laranja: #E76F51; --fundo: #f8fafc; --texto: #0f172a; --suave: #475569; --borda: #e2e8f0; }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background: var(--fundo); color: var(--texto); line-height: 1.6; }
-    a { color: var(--verde); }
-    .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
-    header { background: linear-gradient(135deg, var(--azul), var(--verde)); color: #fff; padding: 64px 0 56px; }
-    header .tag { display: inline-block; background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.3); padding: 4px 12px; border-radius: 999px; font-size: .8rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
-    header h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); margin: 16px 0 10px; line-height: 1.15; }
-    header p { font-size: 1.1rem; max-width: 720px; opacity: .92; }
-    .botoes { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 12px; }
-    .btn { display: inline-block; padding: 12px 20px; border-radius: 10px; font-weight: 600; text-decoration: none; }
-    .btn-laranja { background: var(--laranja); color: #fff; }
-    .btn-branco { background: #fff; color: var(--azul); }
-    .btn-claro { background: rgba(255,255,255,.15); color: #fff; border: 1px solid rgba(255,255,255,.4); }
-    section { padding: 48px 0; }
-    section:nth-of-type(even) { background: #fff; }
-    h2 { font-size: 1.7rem; color: var(--azul); margin-bottom: 8px; }
-    .lead { color: var(--suave); margin-bottom: 24px; max-width: 800px; }
-    .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-    .grid-kpi { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
-    .cartao { background: #fff; border: 1px solid var(--borda); border-radius: 12px; padding: 20px; }
-    section:nth-of-type(even) .cartao { background: var(--fundo); }
-    .kpi { border-left: 5px solid var(--azul); }
-    .kpi.destaque { border-left-color: var(--verde); }
-    .kpi.alerta { border-left-color: var(--laranja); }
-    .kpi .rotulo { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--suave); font-weight: 600; }
-    .kpi .valor { font-size: 1.8rem; font-weight: 800; margin: 6px 0 2px; }
-    .kpi .detalhe { font-size: .82rem; color: var(--suave); }
-    ol, ul { padding-left: 22px; display: grid; gap: 8px; }
-    table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 12px; overflow: hidden; font-size: .92rem; }
-    th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--borda); }
-    th { background: var(--azul); color: #fff; }
-    pre { background: #0f172a; color: #e2e8f0; padding: 16px 18px; border-radius: 12px; overflow-x: auto; font-size: .85rem; }
-    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
-    .chip { background: #fff; border: 1px solid var(--borda); border-radius: 999px; padding: 6px 14px; font-size: .85rem; font-weight: 500; }
-    .chip.forte { background: var(--azul); color: #fff; border-color: var(--azul); }
-    .conclusao { background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 12px; padding: 24px; }
-    .aviso { background: #fffbeb; border: 1px solid #fde68a; border-radius: 10px; padding: 14px 16px; font-size: .92rem; margin-top: 16px; }
-    footer { background: var(--azul); color: rgba(255,255,255,.85); padding: 28px 0; text-align: center; font-size: .9rem; }
-    footer a { color: #fff; }
-  </style>
 </head>
 <body>
 
@@ -54,6 +12,7 @@
   <div class="container">
     <span class="tag">Projeto G1 · Tema 24 · Análise e Visualização de Dados com Python</span>
     <h1>Desempenho Escolar no Brasil (2015–2024)</h1>
+    <h2 class="autoria">Pedro Augusto Pereira da Silva · Professor: Alexandre Neves Louzada · Tema 24 — Desempenho Escolar no Brasil</h2>
     <p>Análise de notas, aprovação, redes de ensino, disciplinas e fatores socioeconômicos por região e estado, com dashboard interativo em Streamlit.</p>
     <div class="botoes">
       <a class="btn btn-laranja" href="https://SEU-APP.streamlit.app" target="_blank" rel="noopener">📊 Abrir dashboard</a>
@@ -180,6 +139,51 @@
     <p style="margin-top:6px"><a href="https://github.com/peugusto/ProjetoEscola" target="_blank" rel="noopener">GitHub</a> · <a href="https://SEU-APP.streamlit.app" target="_blank" rel="noopener">Dashboard Streamlit</a></p>
   </div>
 </footer>
+
+
+<style>
+    :root { --azul: #264653; --verde: #2A9D8F; --laranja: #E76F51; --fundo: #f8fafc; --texto: #0f172a; --suave: #475569; --borda: #e2e8f0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background: var(--fundo); color: var(--texto); line-height: 1.6; }
+    a { color: var(--verde); }
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+    header { background: linear-gradient(135deg, var(--azul), var(--verde)); color: #fff; padding: 64px 0 56px; }
+    header .tag { display: inline-block; background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.3); padding: 4px 12px; border-radius: 999px; font-size: .8rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+    header h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); margin: 16px 0 10px; line-height: 1.15; }
+    header p { font-size: 1.1rem; max-width: 720px; opacity: .92; }
+    header .autoria { font-size: 1.05rem; font-weight: 500; color: #fff; opacity: .95; margin: 0 0 14px; }
+    .botoes { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn { display: inline-block; padding: 12px 20px; border-radius: 10px; font-weight: 600; text-decoration: none; }
+    .btn-laranja { background: var(--laranja); color: #fff; }
+    .btn-branco { background: #fff; color: var(--azul); }
+    .btn-claro { background: rgba(255,255,255,.15); color: #fff; border: 1px solid rgba(255,255,255,.4); }
+    section { padding: 48px 0; }
+    section:nth-of-type(even) { background: #fff; }
+    h2 { font-size: 1.7rem; color: var(--azul); margin-bottom: 8px; }
+    .lead { color: var(--suave); margin-bottom: 24px; max-width: 800px; }
+    .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .grid-kpi { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+    .cartao { background: #fff; border: 1px solid var(--borda); border-radius: 12px; padding: 20px; }
+    section:nth-of-type(even) .cartao { background: var(--fundo); }
+    .kpi { border-left: 5px solid var(--azul); }
+    .kpi.destaque { border-left-color: var(--verde); }
+    .kpi.alerta { border-left-color: var(--laranja); }
+    .kpi .rotulo { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--suave); font-weight: 600; }
+    .kpi .valor { font-size: 1.8rem; font-weight: 800; margin: 6px 0 2px; }
+    .kpi .detalhe { font-size: .82rem; color: var(--suave); }
+    ol, ul { padding-left: 22px; display: grid; gap: 8px; }
+    table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 12px; overflow: hidden; font-size: .92rem; }
+    th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--borda); }
+    th { background: var(--azul); color: #fff; }
+    pre { background: #0f172a; color: #e2e8f0; padding: 16px 18px; border-radius: 12px; overflow-x: auto; font-size: .85rem; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+    .chip { background: #fff; border: 1px solid var(--borda); border-radius: 999px; padding: 6px 14px; font-size: .85rem; font-weight: 500; }
+    .chip.forte { background: var(--azul); color: #fff; border-color: var(--azul); }
+    .conclusao { background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 12px; padding: 24px; }
+    .aviso { background: #fffbeb; border: 1px solid #fde68a; border-radius: 10px; padding: 14px 16px; font-size: .92rem; margin-top: 16px; }
+    footer { background: var(--azul); color: rgba(255,255,255,.85); padding: 28px 0; text-align: center; font-size: .9rem; }
+    footer a { color: #fff; }
+</style>
 
 </body>
 </html>

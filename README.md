@@ -2,7 +2,7 @@
 
 Projeto da Avaliação G1 da disciplina Linguagem de Programação — Análise e Visualização de Dados com Python.
 
-**Aluno:** SEU NOME
+**Aluno:** Pedro Augusto Pereira da Silva
 **Professor:** Alexandre Neves Louzada
 
 ## Links
