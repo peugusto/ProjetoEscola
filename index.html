@@ -4,170 +4,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Desempenho Escolar no Brasil (2015–2024) · Projeto G1</title>
-  <meta name="description" content="Projeto de análise e visualização de dados com Python sobre desempenho escolar no Brasil: Pandas, Matplotlib, Seaborn, Plotly, SQLAlchemy e Streamlit.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Projeto de análise e visualização de dados com Python sobre desempenho escolar no Brasil.">
   <style>
-    :root {
-      --azul: #264653; --verde: #2A9D8F; --laranja: #E76F51; --amarelo: #E9C46A; --verde-claro: #8AB17D;
-      --fundo: #f8fafc; --cartao: #ffffff; --texto: #0f172a; --texto-suave: #475569; --borda: #e2e8f0;
-    }
+    :root { --azul: #264653; --verde: #2A9D8F; --laranja: #E76F51; --fundo: #f8fafc; --texto: #0f172a; --suave: #475569; --borda: #e2e8f0; }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: var(--fundo); color: var(--texto); line-height: 1.6; }
-    a { color: var(--verde); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .container { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
-
-    header.hero { background: linear-gradient(135deg, var(--azul) 0%, #1b3a46 55%, var(--verde) 100%); color: #fff; padding: 72px 0 64px; }
-    .hero .tag { display: inline-block; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.25); padding: 4px 12px; border-radius: 999px; font-size: .8rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
-    .hero h1 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin: 18px 0 12px; line-height: 1.15; }
-    .hero p.sub { font-size: 1.15rem; max-width: 760px; opacity: .92; }
-    .hero .botoes { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px; }
-    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: 10px; font-weight: 600; font-size: .95rem; transition: transform .15s, box-shadow .15s; }
-    .btn:hover { transform: translateY(-2px); text-decoration: none; box-shadow: 0 8px 20px rgba(0,0,0,.18); }
-    .btn-primario { background: #fff; color: var(--azul); }
-    .btn-secundario { background: rgba(255,255,255,.14); color: #fff; border: 1px solid rgba(255,255,255,.35); }
+    body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background: var(--fundo); color: var(--texto); line-height: 1.6; }
+    a { color: var(--verde); }
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+    header { background: linear-gradient(135deg, var(--azul), var(--verde)); color: #fff; padding: 64px 0 56px; }
+    header .tag { display: inline-block; background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.3); padding: 4px 12px; border-radius: 999px; font-size: .8rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+    header h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); margin: 16px 0 10px; line-height: 1.15; }
+    header p { font-size: 1.1rem; max-width: 720px; opacity: .92; }
+    .botoes { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn { display: inline-block; padding: 12px 20px; border-radius: 10px; font-weight: 600; text-decoration: none; }
     .btn-laranja { background: var(--laranja); color: #fff; }
-
-    nav.menu { background: var(--cartao); border-bottom: 1px solid var(--borda); position: sticky; top: 0; z-index: 10; }
-    nav.menu ul { list-style: none; display: flex; gap: 6px; overflow-x: auto; padding: 10px 0; }
-    nav.menu a { color: var(--texto-suave); font-size: .9rem; font-weight: 500; padding: 8px 14px; border-radius: 8px; white-space: nowrap; }
-    nav.menu a:hover { background: var(--fundo); color: var(--azul); text-decoration: none; }
-
-    section { padding: 56px 0; }
-    section:nth-of-type(even) { background: var(--cartao); }
-    h2 { font-size: 1.8rem; font-weight: 800; color: var(--azul); margin-bottom: 8px; }
-    .lead { color: var(--texto-suave); font-size: 1.05rem; max-width: 820px; margin-bottom: 28px; }
-    h3 { font-size: 1.15rem; font-weight: 700; color: var(--azul); margin: 24px 0 8px; }
-
-    .grid { display: grid; gap: 18px; }
-    .grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-    .grid-3 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-    .grid-6 { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
-
-    .cartao { background: var(--cartao); border: 1px solid var(--borda); border-radius: 14px; padding: 22px; box-shadow: 0 1px 3px rgba(0,0,0,.04); }
+    .btn-branco { background: #fff; color: var(--azul); }
+    .btn-claro { background: rgba(255,255,255,.15); color: #fff; border: 1px solid rgba(255,255,255,.4); }
+    section { padding: 48px 0; }
+    section:nth-of-type(even) { background: #fff; }
+    h2 { font-size: 1.7rem; color: var(--azul); margin-bottom: 8px; }
+    .lead { color: var(--suave); margin-bottom: 24px; max-width: 800px; }
+    .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .grid-kpi { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+    .cartao { background: #fff; border: 1px solid var(--borda); border-radius: 12px; padding: 20px; }
     section:nth-of-type(even) .cartao { background: var(--fundo); }
     .kpi { border-left: 5px solid var(--azul); }
     .kpi.destaque { border-left-color: var(--verde); }
     .kpi.alerta { border-left-color: var(--laranja); }
-    .kpi .rotulo { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--texto-suave); font-weight: 600; }
-    .kpi .valor { font-size: 1.9rem; font-weight: 800; margin: 6px 0 2px; color: var(--texto); }
-    .kpi .detalhe { font-size: .82rem; color: var(--texto-suave); }
-
-    .perguntas { counter-reset: p; list-style: none; display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-    .perguntas li { counter-increment: p; background: var(--cartao); border: 1px solid var(--borda); border-radius: 10px; padding: 14px 16px 14px 54px; position: relative; font-weight: 500; }
-    .perguntas li::before { content: counter(p); position: absolute; left: 14px; top: 12px; width: 28px; height: 28px; border-radius: 8px; background: var(--azul); color: #fff; font-weight: 700; display: grid; place-items: center; font-size: .85rem; }
-
-    figure { background: var(--cartao); border: 1px solid var(--borda); border-radius: 14px; overflow: hidden; }
-    figure img { width: 100%; display: block; }
-    figcaption { padding: 14px 18px; font-size: .9rem; color: var(--texto-suave); border-top: 1px solid var(--borda); }
-    figcaption strong { color: var(--texto); }
-
-    table { width: 100%; border-collapse: collapse; font-size: .92rem; background: var(--cartao); border-radius: 12px; overflow: hidden; }
-    th, td { padding: 11px 14px; text-align: left; border-bottom: 1px solid var(--borda); vertical-align: top; }
-    th { background: var(--azul); color: #fff; font-weight: 600; }
-    tr:last-child td { border-bottom: none; }
-    code { font-family: ui-monospace, 'Cascadia Code', Consolas, monospace; background: #eef2f7; padding: 2px 6px; border-radius: 5px; font-size: .85em; color: var(--azul); }
-    pre { background: #0f172a; color: #e2e8f0; padding: 18px 20px; border-radius: 12px; overflow-x: auto; font-size: .85rem; line-height: 1.55; }
-    pre code { background: none; color: inherit; padding: 0; }
-
-    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-    .chip { background: var(--cartao); border: 1px solid var(--borda); border-radius: 999px; padding: 6px 14px; font-size: .85rem; font-weight: 500; }
+    .kpi .rotulo { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--suave); font-weight: 600; }
+    .kpi .valor { font-size: 1.8rem; font-weight: 800; margin: 6px 0 2px; }
+    .kpi .detalhe { font-size: .82rem; color: var(--suave); }
+    ol, ul { padding-left: 22px; display: grid; gap: 8px; }
+    table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 12px; overflow: hidden; font-size: .92rem; }
+    th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--borda); }
+    th { background: var(--azul); color: #fff; }
+    pre { background: #0f172a; color: #e2e8f0; padding: 16px 18px; border-radius: 12px; overflow-x: auto; font-size: .85rem; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+    .chip { background: #fff; border: 1px solid var(--borda); border-radius: 999px; padding: 6px 14px; font-size: .85rem; font-weight: 500; }
     .chip.forte { background: var(--azul); color: #fff; border-color: var(--azul); }
-
-    .conclusao { background: linear-gradient(135deg, #ecfdf5, #f0fdfa); border: 1px solid #a7f3d0; border-radius: 14px; padding: 26px 28px; }
-    .conclusao ol { padding-left: 20px; display: grid; gap: 8px; }
-    .aviso { background: #fffbeb; border: 1px solid #fde68a; border-radius: 12px; padding: 16px 18px; font-size: .92rem; margin-top: 18px; }
-
-    footer { background: var(--azul); color: rgba(255,255,255,.85); padding: 32px 0; font-size: .9rem; text-align: center; }
-    footer a { color: #fff; font-weight: 600; }
-    @media (max-width: 640px) { .hero { padding: 52px 0 44px; } section { padding: 40px 0; } }
+    .conclusao { background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 12px; padding: 24px; }
+    .aviso { background: #fffbeb; border: 1px solid #fde68a; border-radius: 10px; padding: 14px 16px; font-size: .92rem; margin-top: 16px; }
+    footer { background: var(--azul); color: rgba(255,255,255,.85); padding: 28px 0; text-align: center; font-size: .9rem; }
+    footer a { color: #fff; }
   </style>
 </head>
 <body>
 
-<header class="hero">
+<header>
   <div class="container">
     <span class="tag">Projeto G1 · Tema 24 · Análise e Visualização de Dados com Python</span>
-    <h1>Desempenho Escolar no Brasil<br>(2015–2024)</h1>
-    <p class="sub">Aplicação analítica para investigar notas, aprovação, redes de ensino, disciplinas e fatores socioeconômicos por região e estado, com dashboard interativo em Streamlit.</p>
+    <h1>Desempenho Escolar no Brasil (2015–2024)</h1>
+    <p>Análise de notas, aprovação, redes de ensino, disciplinas e fatores socioeconômicos por região e estado, com dashboard interativo em Streamlit.</p>
     <div class="botoes">
       <a class="btn btn-laranja" href="https://SEU-APP.streamlit.app" target="_blank" rel="noopener">📊 Abrir dashboard</a>
-      <a class="btn btn-primario" href="https://github.com/SEU-USUARIO/projeto-desempenho-escolar" target="_blank" rel="noopener">💻 Código no GitHub</a>
-      <a class="btn btn-secundario" href="https://github.com/SEU-USUARIO/projeto-desempenho-escolar/blob/main/notebooks/analise_desempenho_escolar.ipynb" target="_blank" rel="noopener">📓 Notebook</a>
+      <a class="btn btn-branco" href="https://github.com/peugusto/ProjetoEscola" target="_blank" rel="noopener">💻 Código no GitHub</a>
+      <a class="btn btn-claro" href="https://github.com/peugusto/ProjetoEscola/blob/main/notebooks/analise_desempenho_escolar.ipynb" target="_blank" rel="noopener">📓 Notebook</a>
     </div>
   </div>
 </header>
 
-<nav class="menu">
+<section>
   <div class="container">
-    <ul>
-      <li><a href="#problema">Problema</a></li>
-      <li><a href="#dados">Dados</a></li>
-      <li><a href="#kpis">KPIs</a></li>
-      <li><a href="#analises">Análises</a></li>
-      <li><a href="#dashboard">Dashboard</a></li>
-      <li><a href="#tecnologias">Tecnologias</a></li>
-      <li><a href="#conclusao">Conclusão</a></li>
-    </ul>
-  </div>
-</nav>
-
-<section id="problema">
-  <div class="container">
-    <h2>O problema</h2>
-    <p class="lead">O desempenho escolar é um indicador central da qualidade da educação e influencia formação profissional, inclusão social, desenvolvimento econômico e redução das desigualdades. A análise de dados educacionais permite identificar padrões de aprendizagem, desigualdades regionais e fatores associados ao rendimento dos estudantes. O projeto responde a sete perguntas orientadoras:</p>
-    <ol class="perguntas">
-      <li>Quais estados apresentam melhor desempenho escolar?</li>
-      <li>Existem diferenças entre escolas públicas e privadas?</li>
-      <li>Houve melhoria no desempenho ao longo do tempo?</li>
-      <li>Existe relação entre renda e desempenho?</li>
-      <li>Como o acesso à internet impacta o aprendizado?</li>
-      <li>Quais disciplinas apresentam menor rendimento?</li>
-      <li>Existem desigualdades regionais relevantes?</li>
-    </ol>
-  </div>
-</section>
-
-<section id="dados">
-  <div class="container">
-    <h2>Base de dados e tratamento</h2>
-    <p class="lead">Dataset simulado fornecido pela disciplina (<code>simulacao_desempenho_escolar_brasil.csv</code>): <strong>740 observações</strong> de município × rede × disciplina × semestre, de 2015 a 2024, cobrindo 20 estados das 5 regiões, 2 redes de ensino e 5 disciplinas.</p>
-    <div class="grid grid-2">
+    <h2>Pergunta de negócio</h2>
+    <p class="lead">Como região, rede de ensino, disciplina, renda familiar e acesso à internet se relacionam com o desempenho escolar no Brasil entre 2015 e 2024?</p>
+    <div class="grid">
       <div class="cartao">
-        <h3 style="margin-top:0">Colunas</h3>
-        <table>
-          <tr><th>Coluna</th><th>Descrição</th></tr>
-          <tr><td><code>ano</code>, <code>semestre</code>, <code>data</code></td><td>Período letivo</td></tr>
-          <tr><td><code>regiao</code>, <code>uf</code>, <code>municipio</code></td><td>Localização</td></tr>
-          <tr><td><code>rede_ensino</code></td><td>Pública ou Privada</td></tr>
-          <tr><td><code>disciplina</code></td><td>Matemática, Português, Ciências, História, Geografia</td></tr>
-          <tr><td><code>media_notas</code></td><td>Média geral das notas (0–100)</td></tr>
-          <tr><td><code>taxa_aprovacao</code>, <code>taxa_reprovacao</code></td><td>Percentuais escolares</td></tr>
-          <tr><td><code>acesso_internet</code></td><td>Percentual de acesso digital</td></tr>
-          <tr><td><code>renda_media_familiar</code></td><td>Renda média (R$)</td></tr>
-          <tr><td><code>indice_desempenho</code>, <code>nivel_desempenho</code></td><td>Índice geral e faixa (Baixo → Excelente)</td></tr>
-        </table>
+        <h3>Perguntas orientadoras</h3>
+        <ol>
+          <li>Quais estados apresentam melhor desempenho escolar?</li>
+          <li>Existem diferenças entre escolas públicas e privadas?</li>
+          <li>Houve melhoria no desempenho ao longo do tempo?</li>
+          <li>Existe relação entre renda e desempenho?</li>
+          <li>Como o acesso à internet impacta o aprendizado?</li>
+          <li>Quais disciplinas apresentam menor rendimento?</li>
+          <li>Existem desigualdades regionais relevantes?</li>
+        </ol>
       </div>
       <div class="cartao">
-        <h3 style="margin-top:0">Pipeline de preparação</h3>
-        <ul style="padding-left:18px; display:grid; gap:8px">
-          <li><strong>Limpeza:</strong> padronização de textos e tipos, conversão de datas, remoção de duplicatas, imputação pela mediana (UF × disciplina), limites 0–100 nos percentuais.</li>
-          <li><strong>Consistência:</strong> flag <code>taxas_inconsistentes</code> para aprovação + reprovação &gt; 100 % (39,3 % dos registros) e <code>nivel_calculado</code> derivado do índice, porque o nível informado não acompanha o índice (24,2 % de concordância).</li>
-          <li><strong>Engenharia de atributos:</strong> <code>periodo</code>, <code>nome_uf</code>, <code>faixa_renda</code> (quartis), <code>faixa_internet</code>, <code>score_composto</code>, <code>periodo_pandemia</code>.</li>
-          <li><strong>Persistência:</strong> banco SQLite com esquema estrela (SQLAlchemy ORM) e view <code>vw_desempenho</code>.</li>
-        </ul>
+        <h3>Base de dados</h3>
+        <p>Dataset simulado fornecido pela disciplina (<code>simulacao_desempenho_escolar_brasil.csv</code>): 740 observações de município × rede × disciplina × semestre, 20 estados das 5 regiões, 2 redes de ensino e 5 disciplinas.</p>
+        <p style="margin-top:10px"><strong>Tratamento:</strong> padronização de textos e tipos, remoção de duplicatas, imputação pela mediana, limites 0–100 nos percentuais, flag de inconsistência (aprovação + reprovação &gt; 100 %) e novos atributos (período, faixas de renda e internet, nível recalculado).</p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="kpis">
+<section>
   <div class="container">
     <h2>KPIs</h2>
-    <p class="lead">Indicadores calculados sobre a base completa. No dashboard eles reagem a todos os filtros.</p>
-    <div class="grid grid-6">
+    <p class="lead">Indicadores calculados sobre a base completa. No dashboard, eles reagem aos filtros.</p>
+    <div class="grid grid-kpi">
       <div class="cartao kpi"><div class="rotulo">Média geral das notas</div><div class="valor">65,0</div><div class="detalhe">escala 0–100</div></div>
       <div class="cartao kpi"><div class="rotulo">Taxa média de aprovação</div><div class="valor">77,4%</div><div class="detalhe">indicador escolar</div></div>
       <div class="cartao kpi"><div class="rotulo">Índice médio de desempenho</div><div class="valor">64,9</div><div class="detalhe">indicador nacional</div></div>
@@ -178,122 +104,72 @@
   </div>
 </section>
 
-<section id="analises">
+<section>
   <div class="container">
-    <h2>Análises e visualizações</h2>
-    <p class="lead">Gráficos gerados no notebook com Matplotlib e Seaborn. Cada um responde a uma das perguntas orientadoras; a versão interativa está no dashboard.</p>
-
-    <div class="grid grid-2">
-      <figure>
-        <img src="imagens/03_linha_temporal.png" alt="Linha temporal da média das notas e do índice de desempenho por semestre" loading="lazy">
-        <figcaption><strong>Houve melhoria ao longo do tempo?</strong> A média das notas oscila em torno de 65 pontos, com tendência linear praticamente nula (+0,18 ponto/ano). Melhor ano: 2023 (67,9); pior: 2018 (62,4). O período da pandemia não mostra queda destacada.</figcaption>
-      </figure>
-      <figure>
-        <img src="imagens/04_barras_estado.png" alt="Barras horizontais com o índice médio de desempenho por estado" loading="lazy">
-        <figcaption><strong>Quais estados têm melhor desempenho?</strong> Rondônia (70,5), Pará (69,6), Bahia (68,7) lideram o ranking pelo índice de desempenho; Paraná (58,3), Maranhão (59,6), Tocantins (61,1) ficam na base. A amplitude entre extremos é de 12,2 pontos.</figcaption>
-      </figure>
-      <figure>
-        <img src="imagens/05_regioes_redes.png" alt="Barras por região e rede e boxplot das notas por região" loading="lazy">
-        <figcaption><strong>Desigualdades regionais e redes.</strong> Centro-Oeste (68,8) tem a maior média regional e Norte (63,2) a menor (diferença de 5,7 pontos). As distribuições por região se sobrepõem: a desigualdade dentro das regiões supera a diferença entre elas.</figcaption>
-      </figure>
-      <figure>
-        <img src="imagens/06_barras_disciplina.png" alt="Barras da média das notas e da taxa de reprovação por disciplina e rede" loading="lazy">
-        <figcaption><strong>Quais disciplinas têm menor rendimento?</strong> Português é a disciplina mais crítica (63,1) e Matemática a de melhor rendimento (66,0). A diferença entre redes pública e privada é de apenas 0,2 ponto(s).</figcaption>
-      </figure>
-      <figure>
-        <img src="imagens/07_heatmap_semestral.png" alt="Heatmap semestral da média das notas por região" loading="lazy">
-        <figcaption><strong>Heatmap semestral.</strong> Evolução da média das notas por região e semestre: as cores alternam sem padrão sazonal ou regional persistente, confirmando a estabilidade temporal.</figcaption>
-      </figure>
-      <figure>
-        <img src="imagens/08_dispersao_renda_internet.png" alt="Dispersões de renda e acesso à internet contra média das notas" loading="lazy">
-        <figcaption><strong>Renda e internet importam?</strong> Correlação renda × notas r = +0,007 e internet × notas r = +0,006: ambas praticamente nulas e não significativas. A base simulada não reproduz a relação positiva observada em dados reais.</figcaption>
-      </figure>
-    </div>
-
-    <div class="grid grid-2" style="margin-top:18px">
-      <figure>
-        <img src="imagens/09_matriz_correlacao.png" alt="Matriz de correlação de Pearson entre as variáveis numéricas" loading="lazy">
-        <figcaption><strong>Correlação estatística.</strong> Matriz de Pearson: nenhum par ultrapassa |r| = 0,1. Até aprovação × notas (r = +0,007) é nula — em dados reais seria fortemente positiva, evidência de que as variáveis foram simuladas de forma independente.</figcaption>
-      </figure>
-      <figure>
-        <img src="imagens/10_faixas_renda_internet.png" alt="Média das notas por quartil de renda e por faixa de acesso à internet" loading="lazy">
-        <figcaption><strong>Análise por faixas.</strong> Quartis de renda e faixas de acesso digital apresentam médias de notas muito próximas, nas duas redes de ensino (Q4 − Q1 = +0,52 ponto).</figcaption>
-      </figure>
+    <h2>Principais resultados</h2>
+    <p class="lead">Respostas às perguntas orientadoras, detalhadas no notebook e no dashboard.</p>
+    <div class="grid">
+      <div class="cartao"><h3>Evolução temporal</h3><p>A média das notas oscila em torno de 65 pontos, com tendência de +0,18 ponto por ano. Melhor ano: 2023 (67,9); pior: 2018 (62,4). A pandemia não mostra queda destacada.</p></div>
+      <div class="cartao"><h3>Estados e regiões</h3><p>Rondônia (70,5), Pará (69,6) e Bahia (68,7) lideram pelo índice de desempenho; Paraná (58,3), Maranhão (59,6) e Tocantins (61,1) ficam na base. Centro-Oeste (68,8) é a melhor região e Norte (63,2) a pior, mas a dispersão dentro das regiões é maior do que a diferença entre elas.</p></div>
+      <div class="cartao"><h3>Redes de ensino</h3><p>Diferença de apenas 0,2 ponto entre pública e privada. Nesta base, a rede não discrimina resultados.</p></div>
+      <div class="cartao"><h3>Disciplinas</h3><p>Português é a disciplina mais crítica (63,1) e Matemática a de melhor rendimento (66,0).</p></div>
+      <div class="cartao"><h3>Renda e internet</h3><p>Correlação renda × notas r = +0,007 e internet × notas r = +0,006: praticamente nulas e não significativas. A base simulada não reproduz a relação positiva observada em dados reais.</p></div>
+      <div class="cartao"><h3>Qualidade dos dados</h3><p>39 % dos registros têm aprovação + reprovação acima de 100 % e o nível informado coincide com o índice em apenas 24 % dos casos: as variáveis foram simuladas de forma independente.</p></div>
     </div>
   </div>
 </section>
 
-<section id="dashboard">
+<section>
   <div class="container">
     <h2>Dashboard interativo</h2>
-    <p class="lead">Aplicação multipágina em Streamlit, publicada no Streamlit Community Cloud. Os sete filtros obrigatórios (ano, semestre, região, estado, rede, disciplina e nível) ficam na barra lateral e valem para todas as páginas; KPIs, gráficos, interpretações e conclusão são recalculados a cada seleção.</p>
-    <div class="grid grid-3">
-      <div class="cartao"><h3 style="margin-top:0">🏠 Visão Geral</h3><p>Título, descrição do problema, 6 KPIs dinâmicos, linha temporal, barras por disciplina e estado, heatmap semestral, dispersão renda × notas, tabela resumo, interpretação e conclusão executiva.</p></div>
-      <div class="cartao"><h3 style="margin-top:0">📈 Evolução Temporal</h3><p>Série semestral segmentada, média anual com média móvel, variação e desvio-padrão, heatmap configurável por região, estado, disciplina ou rede.</p></div>
-      <div class="cartao"><h3 style="margin-top:0">🗺️ Comparação Regional</h3><p>Mapa coroplético do Brasil (Plotly) com nomes via API do IBGE, ranking de estados, boxplots por região e medidas de desigualdade.</p></div>
-      <div class="cartao"><h3 style="margin-top:0">🏫 Redes e Disciplinas</h3><p>Pública × privada, diferença por estado, barras por disciplina e distribuição dos níveis de desempenho.</p></div>
-      <div class="cartao"><h3 style="margin-top:0">💰 Fatores Socioeconômicos</h3><p>Dispersões com tendência, Pearson com r², t e p-valor, análise por quartis de renda e faixas de internet, matriz de correlação.</p></div>
-      <div class="cartao"><h3 style="margin-top:0">🔎 Explorador de Dados</h3><p>Tabela dinâmica configurável, download, upload de CSV com o mesmo pipeline, (re)criação do banco SQLite e consultas SQL.</p></div>
-    </div>
-    <p style="margin-top:24px"><a class="btn btn-laranja" href="https://SEU-APP.streamlit.app" target="_blank" rel="noopener">📊 Abrir dashboard no Streamlit Cloud</a></p>
+    <p class="lead">Aplicação em Streamlit com sete filtros (ano, semestre, região, estado, rede, disciplina e nível), seis KPIs dinâmicos, linha temporal com média móvel, ranking de estados, comparação por região e rede, barras por disciplina, heatmap semestral, dispersões renda × notas e internet × notas, matriz de correlação, tabela dinâmica, interpretação textual e conclusão executiva.</p>
+    <p><a class="btn btn-laranja" href="https://SEU-APP.streamlit.app" target="_blank" rel="noopener">📊 Abrir dashboard no Streamlit Cloud</a></p>
   </div>
 </section>
 
-<section id="tecnologias">
+<section>
   <div class="container">
     <h2>Tecnologias e estrutura</h2>
-    <p class="lead">Bibliotecas obrigatórias da disciplina e funcionalidades avançadas implementadas.</p>
-    <div class="chips" style="margin-bottom:22px">
+    <div class="chips">
       <span class="chip forte">Python</span><span class="chip forte">Pandas</span><span class="chip forte">Matplotlib</span><span class="chip forte">Seaborn</span><span class="chip forte">Streamlit</span><span class="chip forte">GitHub</span>
-      <span class="chip">NumPy</span><span class="chip">Plotly</span><span class="chip">SQLAlchemy</span><span class="chip">SQLite</span><span class="chip">Requests</span><span class="chip">Jupyter</span>
+      <span class="chip">NumPy</span><span class="chip">Plotly</span><span class="chip">GitHub Pages</span>
     </div>
-    <div class="grid grid-2">
+    <div class="grid">
       <div class="cartao">
-        <h3 style="margin-top:0">Funcionalidades avançadas</h3>
+        <h3>Funcionalidades</h3>
         <table>
-          <tr><th>Funcionalidade</th><th>Tecnologia</th></tr>
-          <tr><td>Dashboard multipágina</td><td>Streamlit (<code>pages/</code>)</td></tr>
-          <tr><td>Persistência + modelagem relacional</td><td>SQLAlchemy ORM + SQLite (esquema estrela)</td></tr>
-          <tr><td>Consumo de API</td><td>Requests — API de Localidades do IBGE + GeoJSON</td></tr>
-          <tr><td>Mapas interativos</td><td>Plotly choropleth</td></tr>
-          <tr><td>Correlação estatística</td><td>Pandas/NumPy — Pearson, r², t, p-valor</td></tr>
-          <tr><td>Séries temporais avançadas</td><td>Pandas/NumPy — média móvel, variação, tendência</td></tr>
-          <tr><td>Integração de múltiplas fontes</td><td>CSV + API + banco</td></tr>
+          <tr><th>Intermediárias</th><th>Avançadas</th></tr>
+          <tr><td>filtros múltiplos · KPIs dinâmicos · análise temporal · gráficos interativos · visualizações comparativas · dashboard em seções</td><td>correlação estatística (Pearson, p-valor) · série temporal com média móvel e tendência</td></tr>
         </table>
       </div>
       <div class="cartao">
-        <h3 style="margin-top:0">Estrutura do repositório</h3>
-<pre><code>projeto-desempenho-escolar/
-├── app.py                 # dashboard (navegação)
-├── pages/                 # 6 páginas do dashboard
-├── utils/                 # dados, gráficos, filtros, APIs
-├── database/              # SQLAlchemy + SQLite
-├── notebooks/
-│   └── analise_desempenho_escolar.ipynb
+        <h3>Estrutura</h3>
+<pre>ProjetoEscola/
+├── app.py
+├── requirements.txt
+├── README.md
+├── index.html
 ├── dados/
 │   └── simulacao_desempenho_escolar_brasil.csv
-├── imagens/               # gráficos do notebook
-├── index.html             # esta página
-├── requirements.txt
-└── README.md</code></pre>
-        <p style="margin-top:12px"><a href="https://github.com/SEU-USUARIO/projeto-desempenho-escolar" target="_blank" rel="noopener">Ver repositório completo →</a></p>
+└── notebooks/
+    └── analise_desempenho_escolar.ipynb</pre>
       </div>
     </div>
   </div>
 </section>
 
-<section id="conclusao">
+<section>
   <div class="container">
     <h2>Conclusão executiva</h2>
     <div class="conclusao">
       <ol>
-        <li><strong>Panorama nacional:</strong> média das notas 65,0, taxa de aprovação 77,4% e índice de desempenho 64,9.</li>
-        <li><strong>Estabilidade temporal:</strong> não há melhoria consistente entre 2015 e 2024; a série oscila em torno da média sem tendência relevante, inclusive na pandemia.</li>
-        <li><strong>Estados e regiões:</strong> Rondônia é o estado de referência e Paraná o mais crítico; a diferença entre regiões (5,7 pontos) é menor do que a dispersão interna de cada região.</li>
-        <li><strong>Redes de ensino:</strong> diferença de 0,2 ponto(s) entre privada e pública — a rede não discrimina resultados nesta base.</li>
-        <li><strong>Fatores socioeconômicos:</strong> correlações de renda e acesso à internet com as notas praticamente nulas; <strong>Português</strong> é a disciplina que demanda reforço pedagógico.</li>
+        <li><strong>Panorama nacional:</strong> média das notas 65,0, taxa de aprovação 77,4 % e índice de desempenho 64,9.</li>
+        <li><strong>Estabilidade temporal:</strong> não há melhoria consistente entre 2015 e 2024.</li>
+        <li><strong>Estados e regiões:</strong> Rondônia é o estado de referência e Paraná o mais crítico; a diferença entre regiões (5,7 pontos) é menor do que a dispersão interna.</li>
+        <li><strong>Redes de ensino:</strong> diferença de 0,2 ponto entre privada e pública.</li>
+        <li><strong>Fatores socioeconômicos:</strong> correlações praticamente nulas; <strong>Português</strong> é a disciplina que demanda reforço.</li>
       </ol>
-      <div class="aviso"><strong>Nota metodológica.</strong> A base é simulada e apresenta inconsistências internas documentadas (aprovação + reprovação &gt; 100 % em 39,3 % dos registros; nível de desempenho independente do índice; aprovação não correlacionada com notas). As conclusões demonstram o método analítico — pipeline reprodutível, KPIs, visualizações e dashboard — e não devem ser lidas como diagnóstico real da educação brasileira. Próximo passo natural: aplicar o mesmo pipeline a dados reais do SAEB/IDEB/Censo Escolar.</div>
+      <div class="aviso"><strong>Nota metodológica.</strong> A base é simulada e apresenta inconsistências internas. As conclusões demonstram o método analítico e não devem ser lidas como diagnóstico real da educação brasileira.</div>
     </div>
   </div>
 </section>
@@ -301,7 +177,7 @@
 <footer>
   <div class="container">
     <p>Projeto G1 · Linguagem de Programação — Análise e Visualização de Dados com Python · Tema 24</p>
-    <p style="margin-top:6px"><a href="https://github.com/SEU-USUARIO/projeto-desempenho-escolar" target="_blank" rel="noopener">GitHub</a> · <a href="https://SEU-APP.streamlit.app" target="_blank" rel="noopener">Dashboard Streamlit</a> · Dados simulados fornecidos pela disciplina</p>
+    <p style="margin-top:6px"><a href="https://github.com/peugusto/ProjetoEscola" target="_blank" rel="noopener">GitHub</a> · <a href="https://SEU-APP.streamlit.app" target="_blank" rel="noopener">Dashboard Streamlit</a></p>
   </div>
 </footer>
 

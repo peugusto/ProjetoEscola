@@ -4,5 +4,3 @@ numpy>=1.26
 matplotlib>=3.8
 seaborn>=0.13
 plotly>=5.20
-sqlalchemy>=2.0
-requests>=2.31
