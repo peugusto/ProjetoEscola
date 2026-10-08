@@ -153,6 +153,7 @@ st.sidebar.caption("Fonte: dataset simulado fornecido pela disciplina (2015–20
 # Título e descrição do problema
 # --------------------------------------------------------------------------- #
 st.title("🎓 Desempenho Escolar no Brasil (2015–2024)")
+st.caption("Disciplina: Linguagem de Programação · Aluno: Pedro Augusto · Professor: Alexandre Neves Louzada ")
 st.markdown(
     """
     O desempenho escolar é um indicador central da qualidade da educação e influencia formação profissional,
