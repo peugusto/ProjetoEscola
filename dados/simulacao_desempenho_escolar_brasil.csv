@@ -1,0 +1,741 @@
+﻿ano,semestre,data,regiao,uf,municipio,rede_ensino,disciplina,media_notas,taxa_aprovacao,taxa_reprovacao,acesso_internet,renda_media_familiar,indice_desempenho,nivel_desempenho
+2015,1,2015-06-01,Norte,AM,Manaus,Pública,Matemática,38.05,81.01,17.27,82.1,4624.09,66.56,Excelente
+2015,1,2015-06-01,Norte,PA,Belém,Privada,Geografia,61.51,87.3,1.13,92.3,3178.52,51.25,Baixo
+2015,1,2015-06-01,Norte,PA,Santarém,Privada,Português,62.11,89.05,12.48,74.9,4316.8,52.29,Baixo
+2015,1,2015-06-01,Norte,RO,Porto Velho,Pública,História,65.67,98.89,15.36,62.2,1792.32,42.05,Alto
+2015,1,2015-06-01,Norte,TO,Palmas,Pública,Português,54.86,95.94,23.97,60.0,1629.89,86.67,Baixo
+2015,1,2015-06-01,Nordeste,BA,Salvador,Pública,Ciências,65.35,75.85,16.34,47.9,2129.96,82.92,Excelente
+2015,1,2015-06-01,Nordeste,BA,Feira de Santana,Pública,Português,56.14,86.17,19.61,58.6,3668.53,74.71,Excelente
+2015,1,2015-06-01,Nordeste,PE,Recife,Pública,História,65.49,84.2,21.08,95.2,4928.64,49.42,Baixo
+2015,1,2015-06-01,Nordeste,PE,Jaboatão dos Guararapes,Pública,História,50.53,83.2,14.9,92.1,3092.87,92.37,Excelente
+2015,1,2015-06-01,Nordeste,CE,Fortaleza,Privada,Matemática,90.62,95.14,19.57,88.8,2893.02,45.98,Excelente
+2015,1,2015-06-01,Nordeste,CE,Juazeiro do Norte,Pública,Matemática,93.84,59.65,12.28,79.9,4516.41,58.47,Excelente
+2015,1,2015-06-01,Nordeste,MA,São Luís,Pública,Matemática,86.88,68.92,19.84,86.0,1604.12,39.88,Médio
+2015,1,2015-06-01,Nordeste,PB,João Pessoa,Pública,Ciências,71.58,84.62,19.53,40.3,4513.35,40.83,Excelente
+2015,1,2015-06-01,Centro-Oeste,DF,Brasília,Privada,Geografia,79.33,83.52,33.93,39.0,3353.66,55.1,Excelente
+2015,1,2015-06-01,Centro-Oeste,GO,Goiânia,Pública,Matemática,63.26,86.22,34.2,50.6,2078.45,69.5,Médio
+2015,1,2015-06-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Português,36.7,96.4,21.04,36.5,4269.87,82.14,Baixo
+2015,1,2015-06-01,Centro-Oeste,MT,Cuiabá,Pública,História,92.69,79.27,18.93,89.7,3093.92,86.51,Médio
+2015,1,2015-06-01,Centro-Oeste,MS,Campo Grande,Pública,Ciências,46.39,65.65,2.85,95.6,3350.1,48.92,Excelente
+2015,1,2015-06-01,Sudeste,SP,São Paulo,Privada,Geografia,43.02,63.35,27.84,76.9,1562.27,82.66,Baixo
+2015,1,2015-06-01,Sudeste,SP,Campinas,Privada,Geografia,44.49,67.71,3.27,54.8,5505.4,54.54,Alto
+2015,1,2015-06-01,Sudeste,SP,Ribeirão Preto,Pública,História,43.68,77.3,19.55,60.2,5355.21,53.88,Excelente
+2015,1,2015-06-01,Sudeste,RJ,Rio de Janeiro,Pública,Ciências,78.91,79.73,28.43,50.2,5169.11,81.76,Alto
+2015,1,2015-06-01,Sudeste,RJ,Niterói,Pública,Matemática,94.29,74.98,25.38,65.5,4176.11,61.44,Alto
+2015,1,2015-06-01,Sudeste,RJ,Nova Iguaçu,Privada,Geografia,81.52,94.41,11.94,74.6,4789.59,89.88,Excelente
+2015,1,2015-06-01,Sudeste,RJ,Petrópolis,Privada,História,76.09,59.43,10.72,68.8,3650.78,72.09,Alto
+2015,1,2015-06-01,Sudeste,MG,Belo Horizonte,Privada,História,53.73,67.27,13.92,51.9,4769.57,88.6,Excelente
+2015,1,2015-06-01,Sudeste,MG,Uberlândia,Privada,Geografia,52.76,95.27,15.97,73.6,4798.57,74.96,Baixo
+2015,1,2015-06-01,Sudeste,MG,Juiz de Fora,Pública,Matemática,91.46,74.9,21.48,66.1,4583.79,72.57,Baixo
+2015,1,2015-06-01,Sudeste,ES,Vitória,Pública,Geografia,40.29,58.59,1.68,73.0,1939.53,91.61,Alto
+2015,1,2015-06-01,Sudeste,ES,Vila Velha,Pública,História,62.59,69.79,20.54,44.1,2703.73,37.94,Excelente
+2015,1,2015-06-01,Sudeste,ES,Serra,Privada,Geografia,51.04,66.45,14.75,60.2,2514.57,71.48,Excelente
+2015,1,2015-06-01,Sul,PR,Curitiba,Privada,Português,75.22,85.7,28.45,86.0,1500.71,52.15,Baixo
+2015,1,2015-06-01,Sul,PR,Londrina,Pública,Português,42.02,60.05,2.25,58.0,3596.13,43.24,Baixo
+2015,1,2015-06-01,Sul,SC,Florianópolis,Pública,História,55.08,58.77,19.27,96.1,4525.32,56.17,Baixo
+2015,1,2015-06-01,Sul,SC,Joinville,Privada,Matemática,68.45,72.44,30.7,52.6,1771.21,86.59,Alto
+2015,1,2015-06-01,Sul,RS,Porto Alegre,Pública,Matemática,85.33,65.53,24.55,51.7,5712.85,44.29,Médio
+2015,1,2015-06-01,Sul,RS,Caxias do Sul,Privada,Geografia,72.77,67.13,25.49,83.7,1897.32,83.75,Excelente
+2015,2,2015-12-01,Norte,AM,Manaus,Pública,História,71.26,80.08,32.81,64.9,3190.26,86.21,Alto
+2015,2,2015-12-01,Norte,PA,Belém,Privada,Português,84.13,68.7,18.07,58.7,2382.35,47.57,Alto
+2015,2,2015-12-01,Norte,PA,Santarém,Pública,Ciências,79.76,72.0,9.68,94.3,3909.96,60.37,Excelente
+2015,2,2015-12-01,Norte,RO,Porto Velho,Pública,Matemática,62.88,98.78,28.24,89.1,2970.07,94.77,Médio
+2015,2,2015-12-01,Norte,TO,Palmas,Pública,Ciências,59.79,91.74,27.74,66.4,4818.87,56.26,Excelente
+2015,2,2015-12-01,Nordeste,BA,Salvador,Privada,Geografia,66.87,79.48,14.75,68.0,1814.62,57.21,Excelente
+2015,2,2015-12-01,Nordeste,BA,Feira de Santana,Privada,Português,91.34,56.1,27.44,93.8,3773.92,77.25,Excelente
+2015,2,2015-12-01,Nordeste,PE,Recife,Privada,Matemática,82.09,94.57,10.23,84.3,4484.12,49.61,Excelente
+2015,2,2015-12-01,Nordeste,PE,Jaboatão dos Guararapes,Pública,Matemática,36.62,76.48,31.66,96.4,3445.06,77.02,Excelente
+2015,2,2015-12-01,Nordeste,CE,Fortaleza,Pública,Português,72.74,92.47,2.13,37.9,4360.71,85.69,Médio
+2015,2,2015-12-01,Nordeste,CE,Juazeiro do Norte,Pública,História,82.94,69.47,19.04,44.3,4973.32,75.27,Baixo
+2015,2,2015-12-01,Nordeste,MA,São Luís,Pública,Português,45.71,56.75,6.14,58.3,4196.66,53.86,Baixo
+2015,2,2015-12-01,Nordeste,PB,João Pessoa,Privada,Geografia,76.76,86.18,22.46,73.8,2572.81,48.53,Excelente
+2015,2,2015-12-01,Centro-Oeste,DF,Brasília,Pública,Ciências,82.21,82.42,30.18,86.1,3499.07,81.31,Baixo
+2015,2,2015-12-01,Centro-Oeste,GO,Goiânia,Pública,Português,74.3,66.89,19.49,81.0,1734.35,70.58,Baixo
+2015,2,2015-12-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Ciências,92.77,61.36,27.04,65.3,2322.58,38.64,Baixo
+2015,2,2015-12-01,Centro-Oeste,MT,Cuiabá,Pública,Matemática,38.74,97.47,9.47,79.8,3405.42,46.36,Médio
+2015,2,2015-12-01,Centro-Oeste,MS,Campo Grande,Pública,História,82.4,73.73,31.64,48.3,2095.81,79.83,Médio
+2015,2,2015-12-01,Sudeste,SP,São Paulo,Pública,História,36.38,92.86,12.21,77.5,5013.37,47.23,Alto
+2015,2,2015-12-01,Sudeste,SP,Campinas,Pública,Português,56.49,74.0,7.88,75.2,2400.67,47.83,Alto
+2015,2,2015-12-01,Sudeste,SP,Ribeirão Preto,Pública,Ciências,45.06,87.0,24.83,53.1,5492.54,83.53,Médio
+2015,2,2015-12-01,Sudeste,RJ,Rio de Janeiro,Privada,Português,45.6,85.14,31.3,96.6,1528.89,39.23,Médio
+2015,2,2015-12-01,Sudeste,RJ,Niterói,Privada,História,89.94,73.74,30.44,88.9,4471.14,86.56,Alto
+2015,2,2015-12-01,Sudeste,RJ,Nova Iguaçu,Privada,História,69.8,67.68,3.07,73.6,4763.32,76.92,Médio
+2015,2,2015-12-01,Sudeste,RJ,Petrópolis,Privada,Geografia,72.18,96.51,27.12,64.6,2909.01,65.66,Excelente
+2015,2,2015-12-01,Sudeste,MG,Belo Horizonte,Pública,Ciências,84.36,96.19,29.46,38.0,4337.27,70.36,Médio
+2015,2,2015-12-01,Sudeste,MG,Uberlândia,Privada,História,77.46,70.9,26.97,49.0,2313.3,86.18,Alto
+2015,2,2015-12-01,Sudeste,MG,Juiz de Fora,Privada,Geografia,40.13,81.49,10.35,67.4,4069.24,90.45,Alto
+2015,2,2015-12-01,Sudeste,ES,Vitória,Pública,Ciências,59.45,55.59,24.14,49.1,3125.45,58.78,Baixo
+2015,2,2015-12-01,Sudeste,ES,Vila Velha,Pública,Matemática,63.84,60.83,17.46,96.8,1663.74,61.51,Alto
+2015,2,2015-12-01,Sudeste,ES,Serra,Pública,Português,88.86,55.22,29.07,91.0,2852.23,94.67,Excelente
+2015,2,2015-12-01,Sul,PR,Curitiba,Pública,Geografia,39.49,68.37,33.25,75.0,2097.57,48.35,Alto
+2015,2,2015-12-01,Sul,PR,Londrina,Privada,Geografia,70.53,56.14,3.6,82.0,4467.2,81.7,Excelente
+2015,2,2015-12-01,Sul,SC,Florianópolis,Pública,Português,55.52,83.46,10.87,56.5,3391.91,82.81,Médio
+2015,2,2015-12-01,Sul,SC,Joinville,Pública,História,37.0,65.09,12.17,51.5,3445.57,45.56,Alto
+2015,2,2015-12-01,Sul,RS,Porto Alegre,Privada,Ciências,60.41,63.88,3.29,92.0,3866.11,92.82,Baixo
+2015,2,2015-12-01,Sul,RS,Caxias do Sul,Pública,Geografia,75.72,73.23,15.27,94.5,2737.92,36.96,Baixo
+2016,1,2016-06-01,Norte,AM,Manaus,Privada,Geografia,88.94,86.93,6.55,84.7,2253.06,42.39,Alto
+2016,1,2016-06-01,Norte,PA,Belém,Pública,Ciências,93.83,82.21,6.64,48.5,4635.17,81.38,Alto
+2016,1,2016-06-01,Norte,PA,Santarém,Privada,Geografia,42.99,98.91,26.38,66.1,5613.44,60.85,Alto
+2016,1,2016-06-01,Norte,RO,Porto Velho,Pública,Ciências,41.5,86.06,21.94,60.9,3533.5,89.27,Baixo
+2016,1,2016-06-01,Norte,TO,Palmas,Privada,Geografia,73.15,98.64,23.72,95.6,5335.33,82.25,Baixo
+2016,1,2016-06-01,Nordeste,BA,Salvador,Privada,Geografia,71.43,86.66,20.84,40.9,4656.13,60.63,Alto
+2016,1,2016-06-01,Nordeste,BA,Feira de Santana,Pública,História,58.61,68.49,2.29,59.8,4868.21,49.09,Alto
+2016,1,2016-06-01,Nordeste,PE,Recife,Privada,Português,39.23,90.21,31.69,91.2,4751.71,38.28,Excelente
+2016,1,2016-06-01,Nordeste,PE,Jaboatão dos Guararapes,Privada,História,37.19,90.2,31.87,95.5,4801.17,69.14,Baixo
+2016,1,2016-06-01,Nordeste,CE,Fortaleza,Pública,Geografia,87.02,73.43,29.29,53.9,5305.53,90.07,Excelente
+2016,1,2016-06-01,Nordeste,CE,Juazeiro do Norte,Privada,Ciências,40.34,70.33,9.95,40.9,3898.08,41.4,Alto
+2016,1,2016-06-01,Nordeste,MA,São Luís,Pública,Ciências,55.17,94.89,30.33,80.1,4495.55,69.65,Excelente
+2016,1,2016-06-01,Nordeste,PB,João Pessoa,Pública,Matemática,60.86,74.21,7.94,53.0,2988.27,82.44,Baixo
+2016,1,2016-06-01,Centro-Oeste,DF,Brasília,Privada,Português,54.95,68.93,18.29,73.4,4192.91,38.11,Excelente
+2016,1,2016-06-01,Centro-Oeste,GO,Goiânia,Privada,Ciências,64.14,57.53,5.18,67.4,4874.76,86.72,Excelente
+2016,1,2016-06-01,Centro-Oeste,GO,Aparecida de Goiânia,Privada,Português,63.63,61.66,30.31,41.2,2338.53,58.18,Alto
+2016,1,2016-06-01,Centro-Oeste,MT,Cuiabá,Privada,Ciências,76.46,88.31,18.23,94.8,4485.07,85.66,Excelente
+2016,1,2016-06-01,Centro-Oeste,MS,Campo Grande,Privada,Geografia,65.2,74.83,22.71,82.4,5835.55,52.61,Excelente
+2016,1,2016-06-01,Sudeste,SP,São Paulo,Privada,Matemática,42.35,81.96,11.96,90.2,5276.95,86.52,Excelente
+2016,1,2016-06-01,Sudeste,SP,Campinas,Privada,Geografia,83.85,56.05,1.64,40.1,1675.48,85.59,Alto
+2016,1,2016-06-01,Sudeste,SP,Ribeirão Preto,Pública,Português,48.44,84.2,3.69,74.8,4424.45,72.37,Médio
+2016,1,2016-06-01,Sudeste,RJ,Rio de Janeiro,Pública,Português,90.16,69.36,33.32,55.6,3820.72,50.82,Alto
+2016,1,2016-06-01,Sudeste,RJ,Niterói,Pública,História,47.92,69.27,20.68,56.9,2597.42,35.01,Baixo
+2016,1,2016-06-01,Sudeste,RJ,Nova Iguaçu,Pública,Matemática,39.66,89.91,29.57,55.7,5749.24,58.89,Excelente
+2016,1,2016-06-01,Sudeste,RJ,Petrópolis,Privada,Português,47.73,88.19,18.59,93.3,1734.38,69.07,Médio
+2016,1,2016-06-01,Sudeste,MG,Belo Horizonte,Privada,Português,41.51,76.45,15.87,76.2,5026.23,58.23,Alto
+2016,1,2016-06-01,Sudeste,MG,Uberlândia,Privada,História,47.87,85.79,30.62,62.5,2693.65,37.39,Excelente
+2016,1,2016-06-01,Sudeste,MG,Juiz de Fora,Pública,Português,41.55,82.18,5.78,80.5,5959.44,67.38,Baixo
+2016,1,2016-06-01,Sudeste,ES,Vitória,Pública,Matemática,67.88,90.69,28.13,50.9,4930.13,89.69,Excelente
+2016,1,2016-06-01,Sudeste,ES,Vila Velha,Pública,Matemática,60.71,57.95,31.13,71.1,3077.94,81.55,Excelente
+2016,1,2016-06-01,Sudeste,ES,Serra,Pública,Geografia,86.9,90.67,22.16,37.0,4517.69,88.99,Alto
+2016,1,2016-06-01,Sul,PR,Curitiba,Privada,Geografia,68.51,91.74,9.95,75.2,3674.25,38.67,Excelente
+2016,1,2016-06-01,Sul,PR,Londrina,Pública,Português,44.7,67.5,11.73,49.0,4671.43,55.58,Alto
+2016,1,2016-06-01,Sul,SC,Florianópolis,Privada,Português,48.72,87.1,8.53,48.9,3815.66,94.25,Médio
+2016,1,2016-06-01,Sul,SC,Joinville,Pública,Geografia,89.53,66.67,13.71,87.8,1762.44,50.54,Alto
+2016,1,2016-06-01,Sul,RS,Porto Alegre,Privada,História,75.49,59.15,14.55,92.0,1552.07,52.64,Excelente
+2016,1,2016-06-01,Sul,RS,Caxias do Sul,Pública,Matemática,76.74,91.95,3.47,38.4,3227.65,62.56,Excelente
+2016,2,2016-12-01,Norte,AM,Manaus,Privada,Português,51.77,60.14,4.53,76.3,5840.65,62.11,Médio
+2016,2,2016-12-01,Norte,PA,Belém,Privada,Ciências,68.93,74.29,32.9,79.2,3725.26,64.31,Alto
+2016,2,2016-12-01,Norte,PA,Santarém,Privada,Ciências,80.03,60.68,15.07,41.2,3537.69,81.23,Baixo
+2016,2,2016-12-01,Norte,RO,Porto Velho,Pública,História,53.1,90.44,15.56,36.9,5260.62,63.12,Alto
+2016,2,2016-12-01,Norte,TO,Palmas,Privada,Matemática,76.11,87.14,24.63,87.0,3472.03,59.93,Médio
+2016,2,2016-12-01,Nordeste,BA,Salvador,Privada,Matemática,38.73,75.59,14.11,69.5,3407.07,46.21,Excelente
+2016,2,2016-12-01,Nordeste,BA,Feira de Santana,Privada,Ciências,53.47,73.49,7.2,67.2,5405.77,55.38,Baixo
+2016,2,2016-12-01,Nordeste,PE,Recife,Privada,Português,82.71,98.01,31.51,90.4,4186.39,69.83,Alto
+2016,2,2016-12-01,Nordeste,PE,Jaboatão dos Guararapes,Pública,Geografia,67.45,84.69,21.42,82.8,4081.97,61.74,Alto
+2016,2,2016-12-01,Nordeste,CE,Fortaleza,Privada,Geografia,40.17,73.25,9.11,39.1,5416.9,61.66,Baixo
+2016,2,2016-12-01,Nordeste,CE,Juazeiro do Norte,Pública,Ciências,37.2,96.72,16.7,60.0,5975.62,35.16,Alto
+2016,2,2016-12-01,Nordeste,MA,São Luís,Privada,Ciências,60.55,92.57,8.82,97.2,4536.71,70.63,Excelente
+2016,2,2016-12-01,Nordeste,PB,João Pessoa,Privada,Matemática,89.43,86.3,23.48,85.6,4931.81,90.45,Médio
+2016,2,2016-12-01,Centro-Oeste,DF,Brasília,Privada,Ciências,76.06,90.44,33.38,74.3,2754.41,68.98,Baixo
+2016,2,2016-12-01,Centro-Oeste,GO,Goiânia,Pública,Matemática,78.05,81.47,14.56,64.3,2054.62,85.22,Excelente
+2016,2,2016-12-01,Centro-Oeste,GO,Aparecida de Goiânia,Privada,Português,63.46,92.13,8.94,66.5,3304.23,93.57,Médio
+2016,2,2016-12-01,Centro-Oeste,MT,Cuiabá,Privada,Ciências,73.5,96.68,11.78,82.9,2451.54,84.48,Alto
+2016,2,2016-12-01,Centro-Oeste,MS,Campo Grande,Pública,Matemática,49.03,72.93,33.67,40.8,1571.41,57.16,Alto
+2016,2,2016-12-01,Sudeste,SP,São Paulo,Privada,História,86.26,87.84,31.96,64.4,3382.49,87.31,Médio
+2016,2,2016-12-01,Sudeste,SP,Campinas,Privada,História,53.71,64.73,4.34,38.0,3002.47,76.17,Médio
+2016,2,2016-12-01,Sudeste,SP,Ribeirão Preto,Privada,Ciências,37.0,76.27,34.1,55.7,3773.47,59.39,Baixo
+2016,2,2016-12-01,Sudeste,RJ,Rio de Janeiro,Pública,Ciências,90.99,75.88,27.21,49.9,2115.85,53.14,Alto
+2016,2,2016-12-01,Sudeste,RJ,Niterói,Pública,História,44.01,98.93,18.15,85.3,2010.59,59.28,Médio
+2016,2,2016-12-01,Sudeste,RJ,Nova Iguaçu,Pública,Ciências,56.28,69.69,16.89,78.4,4077.93,50.21,Excelente
+2016,2,2016-12-01,Sudeste,RJ,Petrópolis,Pública,Geografia,77.02,84.09,25.39,78.9,4840.78,90.18,Alto
+2016,2,2016-12-01,Sudeste,MG,Belo Horizonte,Privada,História,70.17,58.84,23.87,84.3,5724.62,70.56,Baixo
+2016,2,2016-12-01,Sudeste,MG,Uberlândia,Pública,História,44.22,60.02,30.61,66.2,3328.66,52.85,Baixo
+2016,2,2016-12-01,Sudeste,MG,Juiz de Fora,Privada,Português,81.69,67.31,13.64,58.8,1643.36,79.77,Baixo
+2016,2,2016-12-01,Sudeste,ES,Vitória,Privada,História,66.47,94.01,34.32,96.3,4498.45,54.02,Médio
+2016,2,2016-12-01,Sudeste,ES,Vila Velha,Privada,Geografia,55.98,80.28,14.02,77.7,2379.31,37.23,Baixo
+2016,2,2016-12-01,Sudeste,ES,Serra,Privada,Ciências,80.88,70.81,10.8,90.9,1596.14,50.42,Excelente
+2016,2,2016-12-01,Sul,PR,Curitiba,Pública,Português,54.92,84.1,2.42,93.9,5819.26,67.3,Alto
+2016,2,2016-12-01,Sul,PR,Londrina,Privada,História,73.8,96.29,14.54,75.3,5038.38,64.76,Médio
+2016,2,2016-12-01,Sul,SC,Florianópolis,Privada,História,48.43,80.94,11.41,60.9,5741.7,88.66,Alto
+2016,2,2016-12-01,Sul,SC,Joinville,Pública,Ciências,84.29,73.71,11.29,83.2,3967.48,89.46,Médio
+2016,2,2016-12-01,Sul,RS,Porto Alegre,Privada,Geografia,78.97,89.02,30.95,68.3,4432.85,59.89,Alto
+2016,2,2016-12-01,Sul,RS,Caxias do Sul,Pública,Matemática,37.16,59.76,23.03,51.8,5925.1,93.98,Médio
+2017,1,2017-06-01,Norte,AM,Manaus,Pública,Geografia,61.68,55.36,25.47,47.4,2004.63,82.18,Baixo
+2017,1,2017-06-01,Norte,PA,Belém,Privada,Português,46.14,70.04,6.77,40.9,1549.07,79.29,Alto
+2017,1,2017-06-01,Norte,PA,Santarém,Pública,Matemática,89.07,90.05,25.13,91.1,3206.36,85.9,Excelente
+2017,1,2017-06-01,Norte,RO,Porto Velho,Pública,Matemática,77.92,80.52,14.54,85.8,4686.29,88.63,Alto
+2017,1,2017-06-01,Norte,TO,Palmas,Pública,Ciências,46.61,58.67,30.2,75.2,4843.95,71.82,Excelente
+2017,1,2017-06-01,Nordeste,BA,Salvador,Privada,Geografia,75.36,77.12,15.68,90.4,3389.55,65.33,Baixo
+2017,1,2017-06-01,Nordeste,BA,Feira de Santana,Pública,Geografia,47.59,79.46,3.95,62.0,4716.6,90.11,Excelente
+2017,1,2017-06-01,Nordeste,PE,Recife,Pública,Ciências,92.07,92.16,34.3,79.0,5848.68,47.75,Alto
+2017,1,2017-06-01,Nordeste,PE,Jaboatão dos Guararapes,Pública,Geografia,61.43,66.91,26.42,79.1,4727.57,88.35,Médio
+2017,1,2017-06-01,Nordeste,CE,Fortaleza,Pública,História,86.15,77.66,13.16,88.3,2583.54,63.33,Excelente
+2017,1,2017-06-01,Nordeste,CE,Juazeiro do Norte,Pública,História,94.06,83.96,15.54,89.7,5799.9,57.72,Excelente
+2017,1,2017-06-01,Nordeste,MA,São Luís,Pública,Geografia,42.78,89.29,28.18,73.9,4528.16,75.37,Baixo
+2017,1,2017-06-01,Nordeste,PB,João Pessoa,Privada,Português,61.91,94.55,12.9,66.7,4100.57,94.23,Baixo
+2017,1,2017-06-01,Centro-Oeste,DF,Brasília,Pública,Português,40.19,83.66,33.33,40.7,5936.15,54.26,Baixo
+2017,1,2017-06-01,Centro-Oeste,GO,Goiânia,Privada,História,86.03,68.04,18.71,36.5,1542.39,52.35,Baixo
+2017,1,2017-06-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Geografia,74.03,95.02,24.06,41.3,5878.87,48.32,Alto
+2017,1,2017-06-01,Centro-Oeste,MT,Cuiabá,Pública,Ciências,72.98,82.31,27.91,40.9,1655.63,68.87,Excelente
+2017,1,2017-06-01,Centro-Oeste,MS,Campo Grande,Privada,Geografia,53.3,62.6,34.14,76.8,2494.95,76.52,Baixo
+2017,1,2017-06-01,Sudeste,SP,São Paulo,Privada,Matemática,80.43,80.57,11.69,67.4,2426.61,71.92,Alto
+2017,1,2017-06-01,Sudeste,SP,Campinas,Privada,Ciências,66.06,71.75,29.73,50.9,3360.41,47.43,Médio
+2017,1,2017-06-01,Sudeste,SP,Ribeirão Preto,Privada,Português,59.97,78.59,20.83,66.9,5754.76,48.05,Médio
+2017,1,2017-06-01,Sudeste,RJ,Rio de Janeiro,Privada,Ciências,66.98,66.68,12.87,82.1,4641.09,62.23,Excelente
+2017,1,2017-06-01,Sudeste,RJ,Niterói,Pública,Geografia,65.34,85.23,27.09,80.5,2326.58,62.01,Médio
+2017,1,2017-06-01,Sudeste,RJ,Nova Iguaçu,Pública,Matemática,59.08,58.38,14.57,40.3,4813.99,62.34,Baixo
+2017,1,2017-06-01,Sudeste,RJ,Petrópolis,Pública,Matemática,88.36,58.64,27.15,52.4,2644.97,64.74,Alto
+2017,1,2017-06-01,Sudeste,MG,Belo Horizonte,Pública,Geografia,79.6,72.13,34.8,62.9,3533.15,67.63,Baixo
+2017,1,2017-06-01,Sudeste,MG,Uberlândia,Privada,História,42.16,98.24,18.63,37.7,2450.98,38.5,Excelente
+2017,1,2017-06-01,Sudeste,MG,Juiz de Fora,Privada,História,50.89,74.98,17.04,48.9,5598.32,67.99,Médio
+2017,1,2017-06-01,Sudeste,ES,Vitória,Pública,História,73.9,73.58,30.42,45.4,5441.56,48.29,Médio
+2017,1,2017-06-01,Sudeste,ES,Vila Velha,Pública,Ciências,73.58,91.97,27.0,68.3,5893.23,92.88,Excelente
+2017,1,2017-06-01,Sudeste,ES,Serra,Privada,Português,45.27,78.41,3.81,61.3,3051.6,93.89,Excelente
+2017,1,2017-06-01,Sul,PR,Curitiba,Pública,História,85.9,77.21,6.87,84.4,3032.54,44.65,Excelente
+2017,1,2017-06-01,Sul,PR,Londrina,Privada,Geografia,62.56,62.15,20.05,82.2,5878.41,75.1,Alto
+2017,1,2017-06-01,Sul,SC,Florianópolis,Pública,Português,63.58,70.82,13.86,77.7,5914.85,76.96,Excelente
+2017,1,2017-06-01,Sul,SC,Joinville,Privada,Ciências,84.64,94.61,6.82,68.4,3460.56,54.46,Médio
+2017,1,2017-06-01,Sul,RS,Porto Alegre,Pública,Matemática,64.72,72.65,12.41,59.3,4386.66,58.89,Excelente
+2017,1,2017-06-01,Sul,RS,Caxias do Sul,Privada,História,80.54,71.91,17.6,81.7,4818.22,57.15,Excelente
+2017,2,2017-12-01,Norte,AM,Manaus,Pública,Português,68.79,77.11,7.38,68.4,1984.98,86.93,Baixo
+2017,2,2017-12-01,Norte,PA,Belém,Privada,História,45.53,76.89,15.16,97.3,3202.45,75.87,Alto
+2017,2,2017-12-01,Norte,PA,Santarém,Privada,Ciências,65.91,75.32,9.23,70.0,4913.93,39.64,Alto
+2017,2,2017-12-01,Norte,RO,Porto Velho,Pública,Ciências,50.23,89.7,7.76,55.0,4682.18,82.5,Alto
+2017,2,2017-12-01,Norte,TO,Palmas,Privada,Português,85.84,94.66,16.31,79.1,2016.63,49.72,Excelente
+2017,2,2017-12-01,Nordeste,BA,Salvador,Privada,Ciências,65.91,66.57,24.0,37.9,2395.47,81.48,Alto
+2017,2,2017-12-01,Nordeste,BA,Feira de Santana,Pública,Matemática,66.06,79.97,12.83,91.4,5916.4,69.09,Médio
+2017,2,2017-12-01,Nordeste,PE,Recife,Pública,Português,85.38,82.51,28.88,77.7,2236.64,78.51,Médio
+2017,2,2017-12-01,Nordeste,PE,Jaboatão dos Guararapes,Privada,Ciências,41.69,84.73,20.63,87.0,3812.6,63.77,Alto
+2017,2,2017-12-01,Nordeste,CE,Fortaleza,Pública,Ciências,48.24,72.94,33.38,72.5,5043.59,44.88,Médio
+2017,2,2017-12-01,Nordeste,CE,Juazeiro do Norte,Privada,Matemática,37.57,89.88,21.23,66.6,3244.62,35.46,Médio
+2017,2,2017-12-01,Nordeste,MA,São Luís,Privada,História,60.13,91.68,11.2,36.6,1989.78,42.15,Médio
+2017,2,2017-12-01,Nordeste,PB,João Pessoa,Pública,Português,66.49,58.01,2.91,37.4,4696.11,51.12,Médio
+2017,2,2017-12-01,Centro-Oeste,DF,Brasília,Pública,Matemática,64.21,95.16,8.14,38.2,4601.2,81.58,Médio
+2017,2,2017-12-01,Centro-Oeste,GO,Goiânia,Pública,Matemática,46.07,61.62,33.29,64.0,5686.97,91.1,Médio
+2017,2,2017-12-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Matemática,88.64,78.31,1.65,40.0,2158.96,84.96,Baixo
+2017,2,2017-12-01,Centro-Oeste,MT,Cuiabá,Privada,Geografia,85.58,97.31,24.92,81.7,4932.01,77.75,Médio
+2017,2,2017-12-01,Centro-Oeste,MS,Campo Grande,Privada,Matemática,55.79,75.07,31.54,82.1,3458.36,69.62,Alto
+2017,2,2017-12-01,Sudeste,SP,São Paulo,Privada,Matemática,58.46,88.44,26.84,65.8,4458.04,57.12,Excelente
+2017,2,2017-12-01,Sudeste,SP,Campinas,Privada,Ciências,71.54,79.15,11.23,68.9,3154.77,45.29,Alto
+2017,2,2017-12-01,Sudeste,SP,Ribeirão Preto,Pública,Ciências,81.85,67.64,12.6,59.4,2129.74,40.07,Excelente
+2017,2,2017-12-01,Sudeste,RJ,Rio de Janeiro,Pública,Português,46.62,80.84,13.7,94.2,3530.42,58.37,Excelente
+2017,2,2017-12-01,Sudeste,RJ,Niterói,Pública,Ciências,76.76,69.84,7.51,71.2,5760.85,39.22,Médio
+2017,2,2017-12-01,Sudeste,RJ,Nova Iguaçu,Privada,Matemática,56.73,95.63,28.68,78.7,4031.13,64.05,Médio
+2017,2,2017-12-01,Sudeste,RJ,Petrópolis,Pública,Ciências,86.76,68.96,23.52,54.7,4710.36,72.58,Alto
+2017,2,2017-12-01,Sudeste,MG,Belo Horizonte,Privada,Matemática,71.64,97.08,23.25,65.4,2041.15,78.6,Excelente
+2017,2,2017-12-01,Sudeste,MG,Uberlândia,Pública,Ciências,52.58,75.87,1.33,66.9,2038.84,57.37,Baixo
+2017,2,2017-12-01,Sudeste,MG,Juiz de Fora,Privada,Ciências,42.39,70.24,18.53,63.0,4045.06,93.03,Médio
+2017,2,2017-12-01,Sudeste,ES,Vitória,Pública,História,82.71,55.78,7.21,39.0,4752.46,46.78,Médio
+2017,2,2017-12-01,Sudeste,ES,Vila Velha,Pública,Geografia,49.32,80.56,25.33,72.9,2466.44,71.89,Excelente
+2017,2,2017-12-01,Sudeste,ES,Serra,Pública,Matemática,45.35,77.47,8.3,52.6,2740.89,44.8,Baixo
+2017,2,2017-12-01,Sul,PR,Curitiba,Pública,Geografia,86.1,94.08,3.63,44.5,5348.75,51.94,Médio
+2017,2,2017-12-01,Sul,PR,Londrina,Pública,Português,66.06,72.84,9.86,90.3,1604.24,82.31,Baixo
+2017,2,2017-12-01,Sul,SC,Florianópolis,Pública,Ciências,80.84,62.79,8.45,47.9,2452.24,52.78,Excelente
+2017,2,2017-12-01,Sul,SC,Joinville,Privada,Geografia,79.64,63.26,4.62,97.0,3024.31,88.21,Alto
+2017,2,2017-12-01,Sul,RS,Porto Alegre,Pública,Geografia,85.99,56.24,8.11,55.1,2375.33,88.98,Baixo
+2017,2,2017-12-01,Sul,RS,Caxias do Sul,Pública,História,66.05,87.58,17.09,54.5,1708.8,37.98,Médio
+2018,1,2018-06-01,Norte,AM,Manaus,Pública,História,58.56,92.41,3.25,49.7,4323.32,71.35,Alto
+2018,1,2018-06-01,Norte,PA,Belém,Pública,Ciências,72.76,97.48,20.38,76.5,5088.38,76.32,Excelente
+2018,1,2018-06-01,Norte,PA,Santarém,Pública,História,50.37,95.53,26.34,86.3,3692.27,87.89,Médio
+2018,1,2018-06-01,Norte,RO,Porto Velho,Privada,Português,61.98,74.08,33.26,38.0,4189.83,91.45,Médio
+2018,1,2018-06-01,Norte,TO,Palmas,Pública,Matemática,69.14,91.09,22.63,63.2,1767.21,61.56,Alto
+2018,1,2018-06-01,Nordeste,BA,Salvador,Privada,Português,45.06,83.09,13.28,38.5,3782.68,63.26,Médio
+2018,1,2018-06-01,Nordeste,BA,Feira de Santana,Privada,Português,46.93,62.61,25.11,66.7,5085.77,72.47,Baixo
+2018,1,2018-06-01,Nordeste,PE,Recife,Pública,Matemática,65.11,65.38,9.17,78.0,5279.8,78.66,Alto
+2018,1,2018-06-01,Nordeste,PE,Jaboatão dos Guararapes,Privada,Ciências,82.62,85.61,13.08,68.6,3194.36,42.53,Excelente
+2018,1,2018-06-01,Nordeste,CE,Fortaleza,Pública,História,91.91,58.8,16.34,77.6,1853.78,72.47,Excelente
+2018,1,2018-06-01,Nordeste,CE,Juazeiro do Norte,Privada,História,81.77,82.68,20.3,72.8,4992.57,69.38,Excelente
+2018,1,2018-06-01,Nordeste,MA,São Luís,Privada,Português,74.18,93.84,7.14,94.3,2276.31,72.27,Alto
+2018,1,2018-06-01,Nordeste,PB,João Pessoa,Privada,Geografia,92.76,61.56,29.15,78.3,4076.26,57.64,Baixo
+2018,1,2018-06-01,Centro-Oeste,DF,Brasília,Pública,Português,82.87,94.86,23.71,74.0,3777.94,90.44,Médio
+2018,1,2018-06-01,Centro-Oeste,GO,Goiânia,Privada,História,79.34,87.07,18.21,74.3,5044.79,90.72,Excelente
+2018,1,2018-06-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Matemática,36.19,74.15,21.71,89.1,5985.23,67.54,Alto
+2018,1,2018-06-01,Centro-Oeste,MT,Cuiabá,Pública,Português,94.62,79.39,10.49,47.0,4617.26,47.72,Médio
+2018,1,2018-06-01,Centro-Oeste,MS,Campo Grande,Privada,Geografia,90.76,96.53,4.94,76.3,5526.13,86.93,Excelente
+2018,1,2018-06-01,Sudeste,SP,São Paulo,Privada,História,35.81,55.73,2.5,51.5,3514.29,94.02,Baixo
+2018,1,2018-06-01,Sudeste,SP,Campinas,Pública,História,51.29,98.74,31.33,61.5,5869.94,60.47,Excelente
+2018,1,2018-06-01,Sudeste,SP,Ribeirão Preto,Privada,História,46.14,94.79,22.52,80.8,3560.49,68.19,Médio
+2018,1,2018-06-01,Sudeste,RJ,Rio de Janeiro,Pública,Matemática,73.14,77.75,33.75,68.4,3870.89,77.44,Baixo
+2018,1,2018-06-01,Sudeste,RJ,Niterói,Pública,Geografia,55.95,96.82,26.9,98.0,2349.75,67.96,Alto
+2018,1,2018-06-01,Sudeste,RJ,Nova Iguaçu,Privada,História,42.53,79.59,24.32,52.7,2939.21,55.57,Excelente
+2018,1,2018-06-01,Sudeste,RJ,Petrópolis,Pública,Matemática,85.31,89.94,1.93,36.1,3361.17,86.71,Alto
+2018,1,2018-06-01,Sudeste,MG,Belo Horizonte,Pública,Geografia,39.47,68.91,15.78,94.9,3496.52,62.8,Médio
+2018,1,2018-06-01,Sudeste,MG,Uberlândia,Pública,História,49.99,66.81,33.78,88.8,2724.92,68.8,Alto
+2018,1,2018-06-01,Sudeste,MG,Juiz de Fora,Pública,Português,82.54,91.89,9.55,50.2,4078.62,42.29,Excelente
+2018,1,2018-06-01,Sudeste,ES,Vitória,Privada,História,86.08,80.02,17.4,42.7,5882.71,45.9,Excelente
+2018,1,2018-06-01,Sudeste,ES,Vila Velha,Privada,História,85.51,57.75,7.43,78.9,2340.23,84.95,Alto
+2018,1,2018-06-01,Sudeste,ES,Serra,Privada,Português,53.66,87.71,16.5,93.3,4046.98,82.01,Médio
+2018,1,2018-06-01,Sul,PR,Curitiba,Pública,Geografia,85.34,58.98,13.09,84.1,5665.84,75.1,Excelente
+2018,1,2018-06-01,Sul,PR,Londrina,Privada,Geografia,51.9,67.84,5.31,84.3,2437.16,48.6,Alto
+2018,1,2018-06-01,Sul,SC,Florianópolis,Privada,Português,86.75,75.22,17.08,94.8,4193.51,48.54,Excelente
+2018,1,2018-06-01,Sul,SC,Joinville,Pública,Matemática,50.56,81.27,21.77,91.9,2471.04,42.69,Alto
+2018,1,2018-06-01,Sul,RS,Porto Alegre,Pública,História,36.29,77.12,24.08,90.9,3197.67,49.19,Excelente
+2018,1,2018-06-01,Sul,RS,Caxias do Sul,Pública,Geografia,55.72,67.52,20.07,92.6,3309.52,49.8,Médio
+2018,2,2018-12-01,Norte,AM,Manaus,Privada,Geografia,46.8,71.72,20.45,36.4,2358.37,90.95,Baixo
+2018,2,2018-12-01,Norte,PA,Belém,Privada,História,78.96,79.18,7.51,81.6,4304.19,85.34,Alto
+2018,2,2018-12-01,Norte,PA,Santarém,Privada,História,64.63,96.37,25.37,96.7,1560.38,77.13,Médio
+2018,2,2018-12-01,Norte,RO,Porto Velho,Pública,Geografia,67.16,89.66,16.69,89.3,2744.95,91.53,Alto
+2018,2,2018-12-01,Norte,TO,Palmas,Privada,Ciências,54.42,69.2,22.38,75.5,4334.68,64.59,Baixo
+2018,2,2018-12-01,Nordeste,BA,Salvador,Pública,Ciências,43.66,60.9,19.27,80.8,4417.28,86.71,Alto
+2018,2,2018-12-01,Nordeste,BA,Feira de Santana,Privada,Geografia,84.27,59.58,16.37,52.3,3777.82,90.59,Baixo
+2018,2,2018-12-01,Nordeste,PE,Recife,Pública,História,49.0,93.35,9.92,56.5,1864.54,80.7,Excelente
+2018,2,2018-12-01,Nordeste,PE,Jaboatão dos Guararapes,Pública,Ciências,41.03,63.6,34.34,76.1,1615.76,78.56,Alto
+2018,2,2018-12-01,Nordeste,CE,Fortaleza,Privada,Ciências,89.04,86.35,17.31,96.4,2614.02,37.53,Baixo
+2018,2,2018-12-01,Nordeste,CE,Juazeiro do Norte,Pública,Ciências,37.55,70.75,31.98,87.4,2881.93,59.2,Excelente
+2018,2,2018-12-01,Nordeste,MA,São Luís,Privada,Geografia,60.76,78.57,10.93,43.4,2745.74,38.29,Excelente
+2018,2,2018-12-01,Nordeste,PB,João Pessoa,Privada,Geografia,43.14,76.49,15.17,76.9,2447.63,57.29,Excelente
+2018,2,2018-12-01,Centro-Oeste,DF,Brasília,Pública,Ciências,72.63,82.1,30.32,64.1,3868.96,93.46,Médio
+2018,2,2018-12-01,Centro-Oeste,GO,Goiânia,Pública,Geografia,88.28,98.54,11.09,76.4,5063.12,84.6,Excelente
+2018,2,2018-12-01,Centro-Oeste,GO,Aparecida de Goiânia,Privada,Matemática,92.41,74.18,19.8,52.4,2595.72,93.09,Alto
+2018,2,2018-12-01,Centro-Oeste,MT,Cuiabá,Privada,Português,52.67,75.52,16.86,84.2,3192.08,60.49,Baixo
+2018,2,2018-12-01,Centro-Oeste,MS,Campo Grande,Privada,Matemática,70.31,78.98,13.98,63.6,3463.37,58.72,Excelente
+2018,2,2018-12-01,Sudeste,SP,São Paulo,Pública,Ciências,55.38,84.49,10.44,60.3,2200.0,73.92,Excelente
+2018,2,2018-12-01,Sudeste,SP,Campinas,Pública,Matemática,72.96,78.05,21.73,65.9,2702.18,89.38,Baixo
+2018,2,2018-12-01,Sudeste,SP,Ribeirão Preto,Pública,Matemática,52.33,66.6,15.49,90.7,3673.31,46.31,Baixo
+2018,2,2018-12-01,Sudeste,RJ,Rio de Janeiro,Privada,Ciências,68.23,91.37,10.87,60.1,1987.49,50.72,Médio
+2018,2,2018-12-01,Sudeste,RJ,Niterói,Privada,História,43.5,89.49,30.86,77.8,2213.53,69.83,Médio
+2018,2,2018-12-01,Sudeste,RJ,Nova Iguaçu,Privada,Matemática,74.71,98.57,14.61,53.1,2650.04,67.78,Alto
+2018,2,2018-12-01,Sudeste,RJ,Petrópolis,Privada,Matemática,50.05,91.47,26.3,94.1,5692.83,70.47,Baixo
+2018,2,2018-12-01,Sudeste,MG,Belo Horizonte,Pública,Matemática,39.94,75.68,2.37,63.6,5979.73,57.29,Excelente
+2018,2,2018-12-01,Sudeste,MG,Uberlândia,Privada,Matemática,56.32,83.2,11.15,39.6,3765.77,89.94,Excelente
+2018,2,2018-12-01,Sudeste,MG,Juiz de Fora,Privada,Ciências,62.83,62.65,6.69,38.9,1981.86,81.86,Excelente
+2018,2,2018-12-01,Sudeste,ES,Vitória,Privada,Ciências,48.12,71.5,16.16,94.4,5559.88,51.35,Excelente
+2018,2,2018-12-01,Sudeste,ES,Vila Velha,Privada,História,60.06,93.73,10.07,65.9,4537.11,37.45,Baixo
+2018,2,2018-12-01,Sudeste,ES,Serra,Privada,Ciências,87.18,94.17,23.22,95.9,4550.7,92.16,Alto
+2018,2,2018-12-01,Sul,PR,Curitiba,Privada,História,41.71,75.16,8.32,83.3,1821.52,72.01,Alto
+2018,2,2018-12-01,Sul,PR,Londrina,Privada,História,58.65,98.1,3.71,72.5,3265.48,72.64,Baixo
+2018,2,2018-12-01,Sul,SC,Florianópolis,Privada,Português,45.89,56.69,29.47,35.9,4546.82,51.93,Excelente
+2018,2,2018-12-01,Sul,SC,Joinville,Pública,Matemática,49.38,73.53,3.89,76.5,2327.82,48.01,Alto
+2018,2,2018-12-01,Sul,RS,Porto Alegre,Privada,Matemática,47.51,92.1,23.19,81.9,4101.87,80.65,Médio
+2018,2,2018-12-01,Sul,RS,Caxias do Sul,Privada,Geografia,35.13,81.39,14.23,54.2,5654.43,59.4,Médio
+2019,1,2019-06-01,Norte,AM,Manaus,Privada,Ciências,61.93,96.12,7.32,44.7,3458.01,53.75,Alto
+2019,1,2019-06-01,Norte,PA,Belém,Privada,Ciências,48.15,80.41,5.04,61.6,2316.4,72.73,Médio
+2019,1,2019-06-01,Norte,PA,Santarém,Privada,Português,78.38,62.77,8.11,50.2,4692.15,94.57,Baixo
+2019,1,2019-06-01,Norte,RO,Porto Velho,Pública,Português,52.17,96.44,23.09,85.6,3624.12,90.22,Baixo
+2019,1,2019-06-01,Norte,TO,Palmas,Pública,Geografia,37.58,93.06,3.53,93.7,2194.87,38.69,Baixo
+2019,1,2019-06-01,Nordeste,BA,Salvador,Pública,História,91.79,62.54,22.42,85.6,1891.57,46.67,Baixo
+2019,1,2019-06-01,Nordeste,BA,Feira de Santana,Privada,Matemática,49.79,58.78,28.34,89.7,2017.57,75.61,Excelente
+2019,1,2019-06-01,Nordeste,PE,Recife,Pública,Matemática,70.0,71.06,25.59,78.8,3528.48,48.57,Excelente
+2019,1,2019-06-01,Nordeste,PE,Jaboatão dos Guararapes,Privada,Matemática,82.1,98.8,15.23,54.4,3627.4,89.97,Excelente
+2019,1,2019-06-01,Nordeste,CE,Fortaleza,Privada,Matemática,66.39,82.34,22.45,41.0,3288.52,46.43,Médio
+2019,1,2019-06-01,Nordeste,CE,Juazeiro do Norte,Privada,Português,39.63,64.86,11.36,55.1,1849.04,81.54,Alto
+2019,1,2019-06-01,Nordeste,MA,São Luís,Privada,História,35.08,95.12,22.32,73.4,2040.59,90.46,Excelente
+2019,1,2019-06-01,Nordeste,PB,João Pessoa,Pública,História,92.15,73.57,7.45,40.8,5225.57,37.23,Excelente
+2019,1,2019-06-01,Centro-Oeste,DF,Brasília,Privada,Ciências,70.5,70.9,28.69,81.3,1611.85,54.41,Baixo
+2019,1,2019-06-01,Centro-Oeste,GO,Goiânia,Pública,Matemática,92.89,78.02,8.65,95.7,4821.2,51.04,Excelente
+2019,1,2019-06-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,História,84.43,94.83,27.0,80.4,2955.15,53.33,Alto
+2019,1,2019-06-01,Centro-Oeste,MT,Cuiabá,Privada,Ciências,85.37,65.98,4.2,82.6,1679.99,56.92,Excelente
+2019,1,2019-06-01,Centro-Oeste,MS,Campo Grande,Privada,Ciências,63.6,65.59,17.27,65.6,2850.41,58.94,Médio
+2019,1,2019-06-01,Sudeste,SP,São Paulo,Privada,História,62.93,69.41,11.22,50.8,5606.4,61.47,Alto
+2019,1,2019-06-01,Sudeste,SP,Campinas,Pública,Português,81.49,85.18,24.84,86.4,2597.09,45.11,Baixo
+2019,1,2019-06-01,Sudeste,SP,Ribeirão Preto,Privada,Ciências,50.61,71.4,4.52,91.1,4045.73,62.24,Excelente
+2019,1,2019-06-01,Sudeste,RJ,Rio de Janeiro,Pública,Geografia,88.32,98.29,13.83,84.7,1872.7,93.08,Excelente
+2019,1,2019-06-01,Sudeste,RJ,Niterói,Pública,Ciências,61.99,87.73,13.59,41.0,4943.55,81.39,Excelente
+2019,1,2019-06-01,Sudeste,RJ,Nova Iguaçu,Privada,Ciências,55.21,97.61,34.64,37.3,3544.29,62.22,Excelente
+2019,1,2019-06-01,Sudeste,RJ,Petrópolis,Pública,História,42.49,60.53,29.42,74.7,1974.14,80.04,Excelente
+2019,1,2019-06-01,Sudeste,MG,Belo Horizonte,Privada,Matemática,70.69,78.07,13.17,91.7,4344.15,60.13,Baixo
+2019,1,2019-06-01,Sudeste,MG,Uberlândia,Privada,Português,57.31,85.29,2.0,73.5,5086.99,71.62,Alto
+2019,1,2019-06-01,Sudeste,MG,Juiz de Fora,Pública,Português,41.41,81.92,2.39,59.7,4952.81,38.6,Excelente
+2019,1,2019-06-01,Sudeste,ES,Vitória,Privada,Matemática,62.89,69.7,17.72,42.2,1962.29,39.19,Baixo
+2019,1,2019-06-01,Sudeste,ES,Vila Velha,Privada,Português,85.95,81.21,33.72,84.6,3863.81,78.05,Excelente
+2019,1,2019-06-01,Sudeste,ES,Serra,Pública,Geografia,39.98,95.36,21.24,62.9,3154.52,69.94,Baixo
+2019,1,2019-06-01,Sul,PR,Curitiba,Privada,Ciências,35.96,91.56,24.66,38.6,3027.12,83.41,Alto
+2019,1,2019-06-01,Sul,PR,Londrina,Pública,Português,68.88,95.33,10.93,40.4,2345.74,79.78,Baixo
+2019,1,2019-06-01,Sul,SC,Florianópolis,Privada,Ciências,91.74,80.78,13.16,97.0,5374.89,35.32,Excelente
+2019,1,2019-06-01,Sul,SC,Joinville,Pública,História,79.73,57.24,31.01,90.6,1788.94,50.78,Baixo
+2019,1,2019-06-01,Sul,RS,Porto Alegre,Pública,Ciências,41.97,68.63,27.78,50.6,2784.26,35.23,Baixo
+2019,1,2019-06-01,Sul,RS,Caxias do Sul,Privada,Ciências,66.19,97.76,16.79,57.3,3282.11,39.53,Médio
+2019,2,2019-12-01,Norte,AM,Manaus,Pública,Geografia,81.71,63.41,23.45,92.8,4637.55,74.48,Excelente
+2019,2,2019-12-01,Norte,PA,Belém,Pública,Matemática,49.29,69.49,25.14,55.3,5587.84,94.7,Baixo
+2019,2,2019-12-01,Norte,PA,Santarém,Privada,Ciências,49.18,62.5,5.48,70.1,1752.86,43.01,Baixo
+2019,2,2019-12-01,Norte,RO,Porto Velho,Pública,Geografia,85.82,65.98,21.03,57.8,1583.11,49.29,Alto
+2019,2,2019-12-01,Norte,TO,Palmas,Pública,Ciências,93.67,98.9,4.02,46.3,4477.7,41.63,Excelente
+2019,2,2019-12-01,Nordeste,BA,Salvador,Pública,Matemática,88.46,84.97,12.58,74.9,2308.98,83.95,Alto
+2019,2,2019-12-01,Nordeste,BA,Feira de Santana,Pública,Matemática,61.24,64.61,6.04,92.4,3423.23,54.05,Excelente
+2019,2,2019-12-01,Nordeste,PE,Recife,Privada,Matemática,71.37,88.07,1.11,35.6,4711.53,55.9,Baixo
+2019,2,2019-12-01,Nordeste,PE,Jaboatão dos Guararapes,Privada,Geografia,47.31,81.93,26.33,74.1,3513.3,44.68,Médio
+2019,2,2019-12-01,Nordeste,CE,Fortaleza,Pública,Geografia,35.89,68.69,23.7,52.3,3165.0,50.06,Médio
+2019,2,2019-12-01,Nordeste,CE,Juazeiro do Norte,Privada,Português,78.52,62.29,25.69,46.7,2999.66,47.54,Baixo
+2019,2,2019-12-01,Nordeste,MA,São Luís,Privada,História,93.47,80.65,3.25,65.5,5809.65,36.33,Baixo
+2019,2,2019-12-01,Nordeste,PB,João Pessoa,Privada,Matemática,82.47,59.75,5.96,83.6,3878.68,71.53,Baixo
+2019,2,2019-12-01,Centro-Oeste,DF,Brasília,Pública,Português,54.32,80.62,26.96,95.9,2642.86,91.5,Alto
+2019,2,2019-12-01,Centro-Oeste,GO,Goiânia,Pública,Português,78.37,74.71,4.03,81.1,2294.21,90.83,Médio
+2019,2,2019-12-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Geografia,58.97,62.43,3.49,91.0,4603.49,37.1,Excelente
+2019,2,2019-12-01,Centro-Oeste,MT,Cuiabá,Pública,História,76.55,84.39,1.45,53.9,2587.51,50.69,Alto
+2019,2,2019-12-01,Centro-Oeste,MS,Campo Grande,Pública,História,49.03,74.05,22.81,39.7,2957.04,46.54,Alto
+2019,2,2019-12-01,Sudeste,SP,São Paulo,Privada,Geografia,53.43,89.08,34.45,77.1,2801.91,62.88,Excelente
+2019,2,2019-12-01,Sudeste,SP,Campinas,Pública,Matemática,74.89,58.41,14.76,59.8,2092.35,52.47,Excelente
+2019,2,2019-12-01,Sudeste,SP,Ribeirão Preto,Pública,História,68.08,65.7,24.87,47.4,2628.36,55.19,Excelente
+2019,2,2019-12-01,Sudeste,RJ,Rio de Janeiro,Privada,Ciências,42.57,73.94,9.97,35.7,2496.49,36.61,Alto
+2019,2,2019-12-01,Sudeste,RJ,Niterói,Privada,Ciências,88.7,86.94,25.52,38.7,5148.27,60.78,Alto
+2019,2,2019-12-01,Sudeste,RJ,Nova Iguaçu,Pública,Geografia,80.93,64.02,32.53,94.5,5927.0,46.87,Baixo
+2019,2,2019-12-01,Sudeste,RJ,Petrópolis,Privada,Português,84.55,81.91,34.11,66.9,4166.47,52.24,Médio
+2019,2,2019-12-01,Sudeste,MG,Belo Horizonte,Privada,História,89.42,64.44,2.57,47.8,3843.69,83.04,Excelente
+2019,2,2019-12-01,Sudeste,MG,Uberlândia,Privada,Português,52.52,62.41,1.29,48.0,1842.69,53.82,Alto
+2019,2,2019-12-01,Sudeste,MG,Juiz de Fora,Pública,Geografia,40.18,79.78,19.34,37.7,2902.61,65.67,Excelente
+2019,2,2019-12-01,Sudeste,ES,Vitória,Pública,Português,94.68,89.11,6.37,76.0,3853.05,43.89,Baixo
+2019,2,2019-12-01,Sudeste,ES,Vila Velha,Pública,Matemática,86.24,89.7,30.36,47.3,1657.21,63.4,Baixo
+2019,2,2019-12-01,Sudeste,ES,Serra,Privada,Matemática,83.2,60.99,17.32,61.7,2040.16,65.44,Baixo
+2019,2,2019-12-01,Sul,PR,Curitiba,Privada,Geografia,73.59,87.9,22.05,54.1,5124.02,57.63,Excelente
+2019,2,2019-12-01,Sul,PR,Londrina,Pública,Matemática,66.65,95.54,24.9,71.7,4935.14,94.63,Médio
+2019,2,2019-12-01,Sul,SC,Florianópolis,Pública,Geografia,68.38,81.62,7.4,91.7,4902.31,54.77,Excelente
+2019,2,2019-12-01,Sul,SC,Joinville,Pública,História,41.22,80.96,27.57,76.5,4433.76,86.05,Baixo
+2019,2,2019-12-01,Sul,RS,Porto Alegre,Pública,Português,38.79,68.25,28.94,93.4,2107.96,49.01,Excelente
+2019,2,2019-12-01,Sul,RS,Caxias do Sul,Pública,Português,70.96,87.9,23.17,94.1,2863.53,80.75,Baixo
+2020,1,2020-06-01,Norte,AM,Manaus,Privada,História,86.48,72.36,31.85,66.2,5130.63,86.41,Alto
+2020,1,2020-06-01,Norte,PA,Belém,Privada,Geografia,94.2,91.02,7.88,87.4,2656.26,84.43,Alto
+2020,1,2020-06-01,Norte,PA,Santarém,Privada,História,55.28,88.72,2.92,42.1,1687.47,81.06,Excelente
+2020,1,2020-06-01,Norte,RO,Porto Velho,Pública,Ciências,63.27,60.39,8.61,54.2,3444.75,61.16,Médio
+2020,1,2020-06-01,Norte,TO,Palmas,Pública,Português,73.27,59.9,20.62,78.4,3876.85,85.06,Baixo
+2020,1,2020-06-01,Nordeste,BA,Salvador,Pública,Português,87.77,90.29,28.97,81.8,5407.29,52.84,Médio
+2020,1,2020-06-01,Nordeste,BA,Feira de Santana,Privada,Geografia,54.29,98.56,19.9,73.3,3024.46,88.37,Baixo
+2020,1,2020-06-01,Nordeste,PE,Recife,Pública,Geografia,70.22,71.38,26.52,36.5,3120.28,82.72,Baixo
+2020,1,2020-06-01,Nordeste,PE,Jaboatão dos Guararapes,Privada,Geografia,41.48,59.23,33.99,83.3,5790.81,71.61,Excelente
+2020,1,2020-06-01,Nordeste,CE,Fortaleza,Pública,Geografia,44.65,96.0,32.05,85.3,4164.98,44.79,Baixo
+2020,1,2020-06-01,Nordeste,CE,Juazeiro do Norte,Pública,História,68.5,77.03,17.46,36.5,3385.37,72.34,Excelente
+2020,1,2020-06-01,Nordeste,MA,São Luís,Privada,Geografia,91.76,87.49,5.44,60.9,4651.65,36.72,Médio
+2020,1,2020-06-01,Nordeste,PB,João Pessoa,Pública,Português,43.1,80.02,4.09,95.6,4435.4,35.66,Médio
+2020,1,2020-06-01,Centro-Oeste,DF,Brasília,Privada,História,85.52,76.57,15.27,44.9,2539.37,81.55,Excelente
+2020,1,2020-06-01,Centro-Oeste,GO,Goiânia,Pública,Português,81.46,63.2,11.81,88.4,1728.1,75.35,Baixo
+2020,1,2020-06-01,Centro-Oeste,GO,Aparecida de Goiânia,Privada,Matemática,63.22,60.52,19.4,93.3,1760.96,47.68,Alto
+2020,1,2020-06-01,Centro-Oeste,MT,Cuiabá,Privada,Ciências,93.11,65.29,12.92,39.4,4179.9,76.15,Excelente
+2020,1,2020-06-01,Centro-Oeste,MS,Campo Grande,Pública,História,39.64,97.91,32.72,85.9,5083.36,53.69,Baixo
+2020,1,2020-06-01,Sudeste,SP,São Paulo,Privada,História,63.91,92.54,26.74,90.9,5000.19,63.87,Alto
+2020,1,2020-06-01,Sudeste,SP,Campinas,Privada,Português,91.11,94.33,14.57,40.7,2508.86,76.33,Baixo
+2020,1,2020-06-01,Sudeste,SP,Ribeirão Preto,Privada,Ciências,83.03,74.01,30.03,78.7,4344.96,77.79,Baixo
+2020,1,2020-06-01,Sudeste,RJ,Rio de Janeiro,Pública,Matemática,43.38,64.34,26.02,64.8,3607.61,63.78,Baixo
+2020,1,2020-06-01,Sudeste,RJ,Niterói,Pública,Matemática,63.43,72.41,30.49,88.9,5467.34,76.01,Baixo
+2020,1,2020-06-01,Sudeste,RJ,Nova Iguaçu,Privada,História,50.66,73.99,14.3,79.0,4660.68,48.93,Excelente
+2020,1,2020-06-01,Sudeste,RJ,Petrópolis,Privada,História,38.03,64.34,7.78,64.6,4888.23,60.22,Alto
+2020,1,2020-06-01,Sudeste,MG,Belo Horizonte,Pública,Português,82.96,69.21,27.68,59.5,3763.44,85.06,Alto
+2020,1,2020-06-01,Sudeste,MG,Uberlândia,Pública,Geografia,65.79,80.73,24.05,41.0,5208.22,36.12,Baixo
+2020,1,2020-06-01,Sudeste,MG,Juiz de Fora,Pública,Geografia,39.58,93.14,23.79,44.3,4199.69,65.88,Baixo
+2020,1,2020-06-01,Sudeste,ES,Vitória,Privada,Geografia,39.68,77.21,1.78,90.2,4257.74,55.62,Alto
+2020,1,2020-06-01,Sudeste,ES,Vila Velha,Privada,Geografia,69.6,71.55,22.54,83.2,5084.55,51.38,Excelente
+2020,1,2020-06-01,Sudeste,ES,Serra,Pública,Ciências,84.3,71.43,26.94,47.8,3829.2,38.69,Excelente
+2020,1,2020-06-01,Sul,PR,Curitiba,Privada,História,73.07,90.66,24.5,71.7,1731.62,61.22,Alto
+2020,1,2020-06-01,Sul,PR,Londrina,Privada,Matemática,65.01,72.94,6.32,35.5,3494.28,55.91,Excelente
+2020,1,2020-06-01,Sul,SC,Florianópolis,Privada,Ciências,66.91,93.22,30.42,71.2,4557.13,64.58,Alto
+2020,1,2020-06-01,Sul,SC,Joinville,Pública,História,82.61,63.52,6.62,82.9,2655.63,93.2,Excelente
+2020,1,2020-06-01,Sul,RS,Porto Alegre,Privada,Geografia,67.23,86.42,20.45,41.2,3239.06,40.8,Excelente
+2020,1,2020-06-01,Sul,RS,Caxias do Sul,Privada,Ciências,58.0,86.52,2.9,75.8,3996.38,64.25,Alto
+2020,2,2020-12-01,Norte,AM,Manaus,Privada,Geografia,55.24,67.95,15.67,79.2,5123.74,66.8,Médio
+2020,2,2020-12-01,Norte,PA,Belém,Pública,História,50.59,71.77,24.72,71.6,1772.13,77.24,Excelente
+2020,2,2020-12-01,Norte,PA,Santarém,Pública,Matemática,52.79,77.79,19.44,62.0,2033.46,44.69,Médio
+2020,2,2020-12-01,Norte,RO,Porto Velho,Pública,Português,46.5,76.27,18.82,52.4,3339.63,62.12,Alto
+2020,2,2020-12-01,Norte,TO,Palmas,Privada,Matemática,41.49,73.03,31.76,49.0,2546.22,40.24,Alto
+2020,2,2020-12-01,Nordeste,BA,Salvador,Pública,História,88.4,79.62,32.24,70.4,3191.94,85.9,Baixo
+2020,2,2020-12-01,Nordeste,BA,Feira de Santana,Pública,Matemática,93.06,96.33,16.61,80.6,3826.71,75.71,Alto
+2020,2,2020-12-01,Nordeste,PE,Recife,Pública,Ciências,65.66,79.0,14.79,88.9,5748.64,69.37,Baixo
+2020,2,2020-12-01,Nordeste,PE,Jaboatão dos Guararapes,Pública,Ciências,48.27,92.73,29.28,92.0,3538.09,76.61,Alto
+2020,2,2020-12-01,Nordeste,CE,Fortaleza,Pública,Geografia,91.26,64.14,27.07,54.1,1866.69,59.18,Alto
+2020,2,2020-12-01,Nordeste,CE,Juazeiro do Norte,Pública,Geografia,67.34,63.17,19.72,80.5,2343.31,56.26,Médio
+2020,2,2020-12-01,Nordeste,MA,São Luís,Privada,Português,70.0,60.17,26.73,46.8,3241.37,50.61,Baixo
+2020,2,2020-12-01,Nordeste,PB,João Pessoa,Pública,História,89.85,59.13,27.4,53.5,2991.12,90.47,Baixo
+2020,2,2020-12-01,Centro-Oeste,DF,Brasília,Privada,Ciências,94.86,93.18,14.75,66.1,5411.8,65.36,Alto
+2020,2,2020-12-01,Centro-Oeste,GO,Goiânia,Privada,Geografia,62.16,61.96,9.07,73.5,5102.9,59.27,Médio
+2020,2,2020-12-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Geografia,94.12,60.5,5.37,63.7,3502.03,74.06,Médio
+2020,2,2020-12-01,Centro-Oeste,MT,Cuiabá,Privada,Português,54.95,73.92,15.8,90.5,5472.44,54.14,Alto
+2020,2,2020-12-01,Centro-Oeste,MS,Campo Grande,Privada,Ciências,45.91,64.69,32.69,89.7,5984.54,65.75,Alto
+2020,2,2020-12-01,Sudeste,SP,São Paulo,Privada,Matemática,52.44,75.87,15.92,46.5,2647.04,90.27,Médio
+2020,2,2020-12-01,Sudeste,SP,Campinas,Privada,Matemática,50.13,88.18,15.31,74.5,3619.27,85.08,Baixo
+2020,2,2020-12-01,Sudeste,SP,Ribeirão Preto,Privada,História,79.32,72.75,26.32,68.6,4974.91,62.79,Baixo
+2020,2,2020-12-01,Sudeste,RJ,Rio de Janeiro,Pública,Português,45.06,78.79,6.83,44.5,3079.82,80.01,Alto
+2020,2,2020-12-01,Sudeste,RJ,Niterói,Privada,Português,68.09,62.83,21.44,43.9,3854.38,40.46,Baixo
+2020,2,2020-12-01,Sudeste,RJ,Nova Iguaçu,Pública,História,56.42,75.27,27.75,85.4,5444.87,85.51,Médio
+2020,2,2020-12-01,Sudeste,RJ,Petrópolis,Privada,Ciências,57.01,88.1,31.19,36.2,3229.45,89.21,Alto
+2020,2,2020-12-01,Sudeste,MG,Belo Horizonte,Privada,Matemática,74.41,95.4,2.54,63.3,2185.75,73.84,Médio
+2020,2,2020-12-01,Sudeste,MG,Uberlândia,Privada,Geografia,76.5,85.23,3.89,39.0,4731.65,55.59,Médio
+2020,2,2020-12-01,Sudeste,MG,Juiz de Fora,Pública,Português,45.19,85.65,16.37,64.5,3748.55,84.02,Baixo
+2020,2,2020-12-01,Sudeste,ES,Vitória,Privada,História,36.11,81.43,10.79,61.3,5614.29,82.13,Médio
+2020,2,2020-12-01,Sudeste,ES,Vila Velha,Pública,História,53.88,94.79,32.13,72.0,4292.56,59.81,Baixo
+2020,2,2020-12-01,Sudeste,ES,Serra,Pública,Geografia,78.16,90.26,1.34,85.5,3872.0,67.13,Médio
+2020,2,2020-12-01,Sul,PR,Curitiba,Privada,História,92.87,84.8,10.62,89.9,3478.69,55.02,Excelente
+2020,2,2020-12-01,Sul,PR,Londrina,Pública,História,72.82,90.56,32.06,65.7,1994.62,36.43,Baixo
+2020,2,2020-12-01,Sul,SC,Florianópolis,Privada,História,45.53,65.4,3.48,84.4,4694.83,72.89,Médio
+2020,2,2020-12-01,Sul,SC,Joinville,Privada,História,35.55,95.89,8.21,49.8,2007.4,57.17,Alto
+2020,2,2020-12-01,Sul,RS,Porto Alegre,Pública,Geografia,54.85,88.5,15.74,95.0,2641.8,49.19,Baixo
+2020,2,2020-12-01,Sul,RS,Caxias do Sul,Privada,Português,38.9,76.24,11.35,36.5,2400.01,69.38,Baixo
+2021,1,2021-06-01,Norte,AM,Manaus,Privada,Geografia,55.29,88.04,8.24,92.0,1651.08,63.06,Médio
+2021,1,2021-06-01,Norte,PA,Belém,Privada,Matemática,40.21,71.28,8.55,75.5,2739.79,40.63,Alto
+2021,1,2021-06-01,Norte,PA,Santarém,Pública,Português,62.98,69.79,21.12,86.0,3156.39,81.59,Médio
+2021,1,2021-06-01,Norte,RO,Porto Velho,Privada,Ciências,87.28,82.22,27.14,96.4,5641.82,49.1,Alto
+2021,1,2021-06-01,Norte,TO,Palmas,Pública,Ciências,41.82,88.69,30.98,62.0,4762.17,60.6,Alto
+2021,1,2021-06-01,Nordeste,BA,Salvador,Privada,História,86.9,55.73,8.27,57.8,5611.52,90.5,Médio
+2021,1,2021-06-01,Nordeste,BA,Feira de Santana,Pública,Matemática,50.7,77.76,8.9,92.0,4985.48,56.26,Alto
+2021,1,2021-06-01,Nordeste,PE,Recife,Pública,Geografia,51.14,70.22,25.5,96.5,5844.97,37.8,Excelente
+2021,1,2021-06-01,Nordeste,PE,Jaboatão dos Guararapes,Pública,Matemática,92.08,76.89,8.82,87.2,5010.35,52.79,Médio
+2021,1,2021-06-01,Nordeste,CE,Fortaleza,Privada,História,50.45,59.49,23.93,35.5,4144.66,64.55,Alto
+2021,1,2021-06-01,Nordeste,CE,Juazeiro do Norte,Pública,Ciências,41.83,80.08,11.88,85.2,4609.82,88.93,Baixo
+2021,1,2021-06-01,Nordeste,MA,São Luís,Privada,Matemática,36.66,78.28,7.33,41.7,3828.01,81.26,Excelente
+2021,1,2021-06-01,Nordeste,PB,João Pessoa,Privada,Português,72.07,61.74,22.24,40.6,5212.19,80.84,Médio
+2021,1,2021-06-01,Centro-Oeste,DF,Brasília,Privada,Matemática,52.88,66.91,13.54,68.1,2345.44,70.28,Médio
+2021,1,2021-06-01,Centro-Oeste,GO,Goiânia,Pública,História,90.28,79.54,3.26,51.8,5520.93,47.2,Baixo
+2021,1,2021-06-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Ciências,81.51,81.34,12.73,45.8,3764.36,59.39,Médio
+2021,1,2021-06-01,Centro-Oeste,MT,Cuiabá,Pública,Ciências,81.62,84.13,15.0,95.0,4265.18,65.61,Alto
+2021,1,2021-06-01,Centro-Oeste,MS,Campo Grande,Privada,Português,88.77,91.9,20.21,55.7,5804.99,66.32,Excelente
+2021,1,2021-06-01,Sudeste,SP,São Paulo,Privada,Matemática,41.2,96.94,25.7,59.4,1953.55,37.03,Alto
+2021,1,2021-06-01,Sudeste,SP,Campinas,Pública,História,61.38,94.03,30.73,36.3,3501.28,81.89,Excelente
+2021,1,2021-06-01,Sudeste,SP,Ribeirão Preto,Privada,Matemática,91.56,67.04,28.62,71.4,4025.05,66.0,Baixo
+2021,1,2021-06-01,Sudeste,RJ,Rio de Janeiro,Privada,Português,37.57,95.77,22.46,79.6,3156.89,43.32,Baixo
+2021,1,2021-06-01,Sudeste,RJ,Niterói,Pública,Português,70.17,87.56,9.36,44.4,4912.6,80.32,Alto
+2021,1,2021-06-01,Sudeste,RJ,Nova Iguaçu,Pública,História,64.73,73.95,6.02,76.5,2455.37,68.68,Alto
+2021,1,2021-06-01,Sudeste,RJ,Petrópolis,Pública,Matemática,49.85,64.66,10.05,49.8,4605.33,87.81,Excelente
+2021,1,2021-06-01,Sudeste,MG,Belo Horizonte,Pública,Matemática,50.82,57.74,31.29,74.1,2337.71,74.16,Médio
+2021,1,2021-06-01,Sudeste,MG,Uberlândia,Pública,Geografia,82.5,91.82,6.42,82.1,2709.92,61.95,Baixo
+2021,1,2021-06-01,Sudeste,MG,Juiz de Fora,Pública,Matemática,43.9,92.12,16.68,86.0,4163.72,55.83,Médio
+2021,1,2021-06-01,Sudeste,ES,Vitória,Privada,História,75.22,92.86,34.01,63.6,2233.82,64.92,Alto
+2021,1,2021-06-01,Sudeste,ES,Vila Velha,Pública,Matemática,71.54,61.98,34.58,97.1,1977.49,80.33,Médio
+2021,1,2021-06-01,Sudeste,ES,Serra,Pública,Matemática,70.01,57.16,12.32,59.9,4618.77,44.6,Alto
+2021,1,2021-06-01,Sul,PR,Curitiba,Pública,Matemática,53.12,84.98,7.27,50.2,1934.28,41.61,Baixo
+2021,1,2021-06-01,Sul,PR,Londrina,Pública,Geografia,89.45,62.47,19.52,65.1,5791.1,80.7,Excelente
+2021,1,2021-06-01,Sul,SC,Florianópolis,Pública,Geografia,58.81,67.35,24.74,80.7,4612.66,68.02,Alto
+2021,1,2021-06-01,Sul,SC,Joinville,Pública,História,91.95,75.91,32.45,59.8,4009.95,58.25,Médio
+2021,1,2021-06-01,Sul,RS,Porto Alegre,Pública,Geografia,52.23,87.66,32.25,35.9,3532.33,45.95,Médio
+2021,1,2021-06-01,Sul,RS,Caxias do Sul,Pública,Português,87.92,78.62,18.49,44.3,2976.09,47.11,Alto
+2021,2,2021-12-01,Norte,AM,Manaus,Privada,Geografia,73.07,82.42,1.16,92.4,5845.33,52.05,Médio
+2021,2,2021-12-01,Norte,PA,Belém,Pública,Geografia,60.97,64.55,27.0,69.3,5884.82,88.74,Alto
+2021,2,2021-12-01,Norte,PA,Santarém,Privada,Ciências,74.72,92.29,26.98,51.5,2461.85,74.16,Baixo
+2021,2,2021-12-01,Norte,RO,Porto Velho,Privada,Português,88.24,62.97,1.98,69.7,3165.17,51.96,Alto
+2021,2,2021-12-01,Norte,TO,Palmas,Pública,Português,58.08,62.39,31.25,82.4,5475.73,51.55,Excelente
+2021,2,2021-12-01,Nordeste,BA,Salvador,Pública,Matemática,79.51,73.91,12.28,92.0,5252.04,84.22,Baixo
+2021,2,2021-12-01,Nordeste,BA,Feira de Santana,Privada,Ciências,79.46,60.57,27.73,84.6,5812.45,35.93,Excelente
+2021,2,2021-12-01,Nordeste,PE,Recife,Privada,Geografia,78.39,58.52,34.89,90.6,3693.09,69.23,Baixo
+2021,2,2021-12-01,Nordeste,PE,Jaboatão dos Guararapes,Privada,Português,58.67,57.49,8.86,45.0,1801.81,88.88,Excelente
+2021,2,2021-12-01,Nordeste,CE,Fortaleza,Privada,Matemática,56.03,59.77,13.31,42.5,4323.62,46.28,Médio
+2021,2,2021-12-01,Nordeste,CE,Juazeiro do Norte,Pública,História,37.3,60.59,26.38,43.7,2910.7,79.24,Alto
+2021,2,2021-12-01,Nordeste,MA,São Luís,Privada,Geografia,35.3,96.99,29.06,66.0,4941.02,69.98,Excelente
+2021,2,2021-12-01,Nordeste,PB,João Pessoa,Pública,Ciências,79.36,95.46,10.06,93.0,5460.1,75.77,Alto
+2021,2,2021-12-01,Centro-Oeste,DF,Brasília,Pública,História,71.76,98.78,34.85,52.3,3404.11,54.27,Médio
+2021,2,2021-12-01,Centro-Oeste,GO,Goiânia,Pública,Matemática,90.85,75.5,15.47,54.1,1900.41,70.69,Baixo
+2021,2,2021-12-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Geografia,35.16,66.34,10.79,82.6,3483.91,79.36,Médio
+2021,2,2021-12-01,Centro-Oeste,MT,Cuiabá,Privada,Matemática,73.75,57.87,30.91,95.1,3375.0,35.09,Excelente
+2021,2,2021-12-01,Centro-Oeste,MS,Campo Grande,Privada,História,56.37,63.59,14.47,66.6,3236.95,83.52,Baixo
+2021,2,2021-12-01,Sudeste,SP,São Paulo,Privada,Português,75.96,85.77,20.71,95.0,1718.71,57.26,Baixo
+2021,2,2021-12-01,Sudeste,SP,Campinas,Pública,Geografia,50.46,65.25,1.19,63.2,5021.86,62.64,Médio
+2021,2,2021-12-01,Sudeste,SP,Ribeirão Preto,Pública,Ciências,53.26,83.99,27.2,37.9,5627.04,48.16,Excelente
+2021,2,2021-12-01,Sudeste,RJ,Rio de Janeiro,Privada,Português,47.36,65.14,19.6,59.0,4417.35,79.44,Excelente
+2021,2,2021-12-01,Sudeste,RJ,Niterói,Privada,Ciências,41.26,58.75,5.13,76.0,4695.84,50.56,Baixo
+2021,2,2021-12-01,Sudeste,RJ,Nova Iguaçu,Pública,Português,74.21,61.1,16.71,95.6,2023.94,56.88,Médio
+2021,2,2021-12-01,Sudeste,RJ,Petrópolis,Pública,Português,71.95,97.75,28.41,62.8,4869.85,62.71,Médio
+2021,2,2021-12-01,Sudeste,MG,Belo Horizonte,Privada,Matemática,43.71,56.44,3.0,89.1,2622.03,47.66,Médio
+2021,2,2021-12-01,Sudeste,MG,Uberlândia,Pública,Geografia,77.07,57.74,33.79,55.2,2970.31,53.12,Baixo
+2021,2,2021-12-01,Sudeste,MG,Juiz de Fora,Privada,Geografia,90.1,56.4,12.96,46.5,3473.3,49.18,Excelente
+2021,2,2021-12-01,Sudeste,ES,Vitória,Pública,Ciências,63.65,92.22,25.78,42.5,5046.1,90.72,Excelente
+2021,2,2021-12-01,Sudeste,ES,Vila Velha,Pública,Português,36.99,81.89,32.68,59.9,5650.73,37.0,Excelente
+2021,2,2021-12-01,Sudeste,ES,Serra,Privada,Ciências,37.85,70.94,10.78,87.3,5232.4,67.35,Médio
+2021,2,2021-12-01,Sul,PR,Curitiba,Pública,Matemática,42.02,96.04,16.68,60.1,4668.74,62.24,Médio
+2021,2,2021-12-01,Sul,PR,Londrina,Pública,Português,74.89,65.89,13.54,88.6,3712.32,56.66,Alto
+2021,2,2021-12-01,Sul,SC,Florianópolis,Pública,História,93.34,57.21,16.31,51.6,5223.47,92.63,Excelente
+2021,2,2021-12-01,Sul,SC,Joinville,Pública,Geografia,84.5,70.14,10.95,94.9,4790.99,66.6,Baixo
+2021,2,2021-12-01,Sul,RS,Porto Alegre,Privada,Geografia,85.5,95.42,27.98,63.4,3086.96,44.27,Alto
+2021,2,2021-12-01,Sul,RS,Caxias do Sul,Pública,Geografia,83.17,79.01,14.86,84.3,4582.66,55.64,Excelente
+2022,1,2022-06-01,Norte,AM,Manaus,Privada,História,75.91,89.62,4.82,84.6,4110.73,36.1,Alto
+2022,1,2022-06-01,Norte,PA,Belém,Privada,Ciências,53.88,78.12,3.19,39.4,2678.01,40.3,Excelente
+2022,1,2022-06-01,Norte,PA,Santarém,Privada,História,43.94,92.94,23.15,49.9,5101.99,48.54,Excelente
+2022,1,2022-06-01,Norte,RO,Porto Velho,Privada,Geografia,36.01,60.73,5.21,83.6,3023.97,80.56,Baixo
+2022,1,2022-06-01,Norte,TO,Palmas,Pública,Matemática,76.04,84.4,16.6,81.7,5399.52,48.45,Baixo
+2022,1,2022-06-01,Nordeste,BA,Salvador,Pública,Português,81.23,62.12,24.75,40.1,2027.52,60.72,Baixo
+2022,1,2022-06-01,Nordeste,BA,Feira de Santana,Pública,História,44.1,62.95,6.85,72.8,4804.34,63.9,Excelente
+2022,1,2022-06-01,Nordeste,PE,Recife,Pública,Matemática,63.97,68.68,33.69,46.7,3268.18,49.34,Baixo
+2022,1,2022-06-01,Nordeste,PE,Jaboatão dos Guararapes,Privada,História,41.0,80.04,10.84,44.3,3152.15,49.9,Médio
+2022,1,2022-06-01,Nordeste,CE,Fortaleza,Pública,Ciências,92.53,75.24,9.52,64.3,3260.15,91.49,Alto
+2022,1,2022-06-01,Nordeste,CE,Juazeiro do Norte,Privada,História,39.52,98.08,10.16,92.9,5186.18,50.04,Médio
+2022,1,2022-06-01,Nordeste,MA,São Luís,Privada,Português,45.17,89.39,35.0,54.3,4472.35,67.8,Baixo
+2022,1,2022-06-01,Nordeste,PB,João Pessoa,Privada,História,63.69,91.84,28.05,89.2,5521.63,92.07,Médio
+2022,1,2022-06-01,Centro-Oeste,DF,Brasília,Pública,Ciências,39.22,77.99,28.34,74.6,3763.89,49.12,Médio
+2022,1,2022-06-01,Centro-Oeste,GO,Goiânia,Privada,Português,76.46,56.34,22.11,56.8,2808.48,74.65,Baixo
+2022,1,2022-06-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Geografia,37.51,85.95,7.46,39.1,2403.55,58.1,Baixo
+2022,1,2022-06-01,Centro-Oeste,MT,Cuiabá,Privada,Português,83.09,61.2,10.32,43.8,3229.69,51.13,Alto
+2022,1,2022-06-01,Centro-Oeste,MS,Campo Grande,Pública,Matemática,72.8,57.88,22.64,66.0,2576.56,61.39,Excelente
+2022,1,2022-06-01,Sudeste,SP,São Paulo,Pública,História,53.94,60.32,15.65,36.5,2222.2,35.33,Baixo
+2022,1,2022-06-01,Sudeste,SP,Campinas,Pública,Ciências,74.91,64.39,21.45,44.4,3194.96,82.93,Baixo
+2022,1,2022-06-01,Sudeste,SP,Ribeirão Preto,Privada,Português,80.1,67.47,21.44,89.1,3524.11,72.71,Médio
+2022,1,2022-06-01,Sudeste,RJ,Rio de Janeiro,Pública,Geografia,86.18,60.71,6.62,46.1,3491.24,56.88,Excelente
+2022,1,2022-06-01,Sudeste,RJ,Niterói,Pública,Geografia,84.46,98.58,12.22,63.1,1777.27,82.9,Alto
+2022,1,2022-06-01,Sudeste,RJ,Nova Iguaçu,Pública,Ciências,82.27,90.76,24.44,54.4,2539.32,70.03,Médio
+2022,1,2022-06-01,Sudeste,RJ,Petrópolis,Privada,Geografia,53.77,66.73,28.42,69.2,2729.49,44.47,Alto
+2022,1,2022-06-01,Sudeste,MG,Belo Horizonte,Pública,História,54.13,86.35,3.05,82.8,4032.17,55.64,Excelente
+2022,1,2022-06-01,Sudeste,MG,Uberlândia,Privada,História,89.0,58.54,8.04,46.8,4250.43,44.11,Alto
+2022,1,2022-06-01,Sudeste,MG,Juiz de Fora,Privada,Matemática,63.83,89.75,25.42,41.4,4679.75,42.42,Baixo
+2022,1,2022-06-01,Sudeste,ES,Vitória,Privada,Geografia,75.17,60.62,23.09,48.7,1858.89,61.83,Médio
+2022,1,2022-06-01,Sudeste,ES,Vila Velha,Pública,Português,81.23,91.54,6.23,61.8,4536.32,69.32,Baixo
+2022,1,2022-06-01,Sudeste,ES,Serra,Pública,Ciências,37.93,73.17,19.94,91.8,2237.21,57.0,Alto
+2022,1,2022-06-01,Sul,PR,Curitiba,Pública,Ciências,77.24,89.37,32.82,61.7,4330.58,61.99,Médio
+2022,1,2022-06-01,Sul,PR,Londrina,Privada,História,73.04,67.93,6.92,93.5,5318.1,61.48,Médio
+2022,1,2022-06-01,Sul,SC,Florianópolis,Privada,Matemática,87.2,90.83,24.89,84.2,2892.82,71.57,Excelente
+2022,1,2022-06-01,Sul,SC,Joinville,Privada,Português,82.52,72.9,21.55,49.1,3061.45,94.67,Excelente
+2022,1,2022-06-01,Sul,RS,Porto Alegre,Pública,Geografia,51.19,61.95,16.01,85.9,3578.44,63.42,Médio
+2022,1,2022-06-01,Sul,RS,Caxias do Sul,Pública,Matemática,84.88,60.62,18.01,73.8,2750.58,80.27,Baixo
+2022,2,2022-12-01,Norte,AM,Manaus,Pública,Matemática,91.0,75.89,4.83,48.3,3186.88,49.07,Médio
+2022,2,2022-12-01,Norte,PA,Belém,Privada,Português,51.23,58.77,5.73,63.6,5451.81,61.26,Alto
+2022,2,2022-12-01,Norte,PA,Santarém,Pública,Ciências,40.09,76.92,9.47,62.9,3984.86,74.5,Excelente
+2022,2,2022-12-01,Norte,RO,Porto Velho,Pública,Português,51.98,61.93,19.44,39.2,3582.12,74.96,Médio
+2022,2,2022-12-01,Norte,TO,Palmas,Pública,Matemática,55.88,94.67,18.95,87.1,4177.98,92.47,Excelente
+2022,2,2022-12-01,Nordeste,BA,Salvador,Pública,Português,41.23,61.52,4.02,94.2,3457.9,70.96,Médio
+2022,2,2022-12-01,Nordeste,BA,Feira de Santana,Privada,Ciências,52.51,71.46,14.67,56.5,2747.78,52.92,Baixo
+2022,2,2022-12-01,Nordeste,PE,Recife,Privada,Matemática,69.97,87.33,11.91,93.5,5965.28,35.65,Excelente
+2022,2,2022-12-01,Nordeste,PE,Jaboatão dos Guararapes,Pública,Português,44.51,98.1,19.74,93.5,3808.02,69.03,Médio
+2022,2,2022-12-01,Nordeste,CE,Fortaleza,Privada,Ciências,44.04,83.41,27.35,62.4,4719.03,87.47,Alto
+2022,2,2022-12-01,Nordeste,CE,Juazeiro do Norte,Pública,Português,40.26,65.64,1.41,63.5,3839.9,41.97,Alto
+2022,2,2022-12-01,Nordeste,MA,São Luís,Privada,História,79.66,91.3,23.34,46.5,5720.35,46.81,Baixo
+2022,2,2022-12-01,Nordeste,PB,João Pessoa,Privada,História,91.02,89.19,9.5,45.7,4551.55,35.93,Médio
+2022,2,2022-12-01,Centro-Oeste,DF,Brasília,Pública,História,45.92,88.68,22.46,85.6,5383.05,41.11,Excelente
+2022,2,2022-12-01,Centro-Oeste,GO,Goiânia,Privada,História,56.75,91.54,3.69,84.4,4655.72,62.34,Baixo
+2022,2,2022-12-01,Centro-Oeste,GO,Aparecida de Goiânia,Privada,Português,56.36,73.66,34.28,45.7,4382.72,85.82,Médio
+2022,2,2022-12-01,Centro-Oeste,MT,Cuiabá,Pública,História,73.26,98.75,24.35,49.8,2860.98,59.4,Excelente
+2022,2,2022-12-01,Centro-Oeste,MS,Campo Grande,Privada,Geografia,54.2,98.53,28.6,63.5,1968.09,63.23,Alto
+2022,2,2022-12-01,Sudeste,SP,São Paulo,Privada,História,47.41,66.38,31.5,73.0,1734.55,81.7,Alto
+2022,2,2022-12-01,Sudeste,SP,Campinas,Privada,Português,53.12,97.34,1.5,94.9,4442.37,88.99,Médio
+2022,2,2022-12-01,Sudeste,SP,Ribeirão Preto,Privada,Ciências,78.99,61.52,16.37,91.5,4648.12,61.12,Excelente
+2022,2,2022-12-01,Sudeste,RJ,Rio de Janeiro,Privada,Geografia,71.34,80.8,17.42,53.6,5848.71,41.21,Baixo
+2022,2,2022-12-01,Sudeste,RJ,Niterói,Pública,Matemática,59.07,67.33,34.82,78.4,5392.11,50.23,Excelente
+2022,2,2022-12-01,Sudeste,RJ,Nova Iguaçu,Pública,Português,41.75,59.46,15.61,49.6,4811.05,50.6,Médio
+2022,2,2022-12-01,Sudeste,RJ,Petrópolis,Privada,Português,58.8,74.04,13.73,93.6,5172.01,84.4,Excelente
+2022,2,2022-12-01,Sudeste,MG,Belo Horizonte,Privada,Matemática,54.07,84.26,18.22,61.5,5987.62,42.05,Baixo
+2022,2,2022-12-01,Sudeste,MG,Uberlândia,Privada,História,42.69,64.37,10.16,77.3,2274.34,53.55,Excelente
+2022,2,2022-12-01,Sudeste,MG,Juiz de Fora,Privada,Português,93.81,55.03,13.35,82.5,2817.24,85.14,Alto
+2022,2,2022-12-01,Sudeste,ES,Vitória,Pública,Ciências,39.09,58.52,3.76,84.7,3858.85,45.25,Alto
+2022,2,2022-12-01,Sudeste,ES,Vila Velha,Privada,História,73.67,97.81,17.79,42.2,5743.55,79.93,Médio
+2022,2,2022-12-01,Sudeste,ES,Serra,Pública,Geografia,46.29,90.09,16.45,42.7,3171.42,81.15,Médio
+2022,2,2022-12-01,Sul,PR,Curitiba,Pública,Ciências,85.51,59.51,26.55,40.8,4860.72,42.89,Médio
+2022,2,2022-12-01,Sul,PR,Londrina,Pública,História,40.72,61.38,2.08,35.8,5182.21,41.99,Baixo
+2022,2,2022-12-01,Sul,SC,Florianópolis,Privada,Português,77.88,69.34,20.5,95.5,4075.87,37.24,Alto
+2022,2,2022-12-01,Sul,SC,Joinville,Privada,História,37.94,67.68,28.76,86.1,4871.75,39.89,Baixo
+2022,2,2022-12-01,Sul,RS,Porto Alegre,Pública,Geografia,74.22,78.26,9.37,80.5,5027.34,38.86,Baixo
+2022,2,2022-12-01,Sul,RS,Caxias do Sul,Privada,História,70.36,77.63,15.27,60.3,4964.81,56.66,Baixo
+2023,1,2023-06-01,Norte,AM,Manaus,Privada,Português,42.51,60.91,11.63,50.9,2938.41,44.69,Baixo
+2023,1,2023-06-01,Norte,PA,Belém,Pública,Geografia,77.64,76.45,20.55,91.8,5754.56,60.51,Baixo
+2023,1,2023-06-01,Norte,PA,Santarém,Pública,Português,70.68,72.63,19.91,93.0,2610.77,87.32,Baixo
+2023,1,2023-06-01,Norte,RO,Porto Velho,Pública,Português,61.59,67.86,16.4,86.3,4746.82,46.21,Médio
+2023,1,2023-06-01,Norte,TO,Palmas,Pública,Ciências,88.14,55.58,24.33,65.6,1542.58,51.97,Alto
+2023,1,2023-06-01,Nordeste,BA,Salvador,Pública,Matemática,55.04,81.75,31.59,75.9,3963.13,68.3,Médio
+2023,1,2023-06-01,Nordeste,BA,Feira de Santana,Privada,Matemática,47.36,93.81,32.34,44.6,5312.86,62.61,Médio
+2023,1,2023-06-01,Nordeste,PE,Recife,Pública,Ciências,80.97,79.48,25.39,83.8,5787.38,91.52,Médio
+2023,1,2023-06-01,Nordeste,PE,Jaboatão dos Guararapes,Pública,Ciências,77.88,64.64,27.89,39.5,5831.17,80.82,Médio
+2023,1,2023-06-01,Nordeste,CE,Fortaleza,Pública,Ciências,78.94,61.79,31.97,38.7,5588.47,82.49,Baixo
+2023,1,2023-06-01,Nordeste,CE,Juazeiro do Norte,Privada,Matemática,76.15,87.64,30.05,57.5,4914.69,68.23,Baixo
+2023,1,2023-06-01,Nordeste,MA,São Luís,Pública,Matemática,56.24,83.62,3.33,83.4,3908.55,52.27,Excelente
+2023,1,2023-06-01,Nordeste,PB,João Pessoa,Privada,Matemática,81.34,73.06,25.21,46.0,4419.95,43.31,Excelente
+2023,1,2023-06-01,Centro-Oeste,DF,Brasília,Privada,Ciências,79.23,94.36,29.37,57.9,4290.18,54.13,Alto
+2023,1,2023-06-01,Centro-Oeste,GO,Goiânia,Pública,Matemática,93.86,93.19,25.33,91.6,3071.82,70.26,Excelente
+2023,1,2023-06-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Matemática,64.61,92.55,20.37,77.8,4085.46,61.25,Baixo
+2023,1,2023-06-01,Centro-Oeste,MT,Cuiabá,Privada,Matemática,44.7,79.53,26.81,93.5,1873.01,56.75,Alto
+2023,1,2023-06-01,Centro-Oeste,MS,Campo Grande,Privada,Ciências,62.1,93.91,27.41,57.1,4923.66,58.18,Baixo
+2023,1,2023-06-01,Sudeste,SP,São Paulo,Pública,Ciências,80.96,88.42,4.43,68.1,4939.45,66.77,Excelente
+2023,1,2023-06-01,Sudeste,SP,Campinas,Privada,Ciências,74.05,72.49,32.72,93.9,2655.97,73.88,Excelente
+2023,1,2023-06-01,Sudeste,SP,Ribeirão Preto,Privada,Matemática,61.81,57.94,5.67,43.7,4490.72,62.09,Excelente
+2023,1,2023-06-01,Sudeste,RJ,Rio de Janeiro,Privada,Geografia,89.41,92.79,31.01,48.5,3362.03,45.72,Baixo
+2023,1,2023-06-01,Sudeste,RJ,Niterói,Privada,História,77.53,93.69,28.8,80.2,2246.68,39.78,Excelente
+2023,1,2023-06-01,Sudeste,RJ,Nova Iguaçu,Privada,Português,63.96,57.72,17.97,49.3,4053.78,35.43,Médio
+2023,1,2023-06-01,Sudeste,RJ,Petrópolis,Pública,Geografia,50.94,92.24,31.01,48.2,2481.09,53.55,Médio
+2023,1,2023-06-01,Sudeste,MG,Belo Horizonte,Privada,Matemática,90.66,80.44,28.47,48.8,3813.88,86.54,Alto
+2023,1,2023-06-01,Sudeste,MG,Uberlândia,Pública,Geografia,41.15,92.03,29.68,55.0,1884.63,93.42,Alto
+2023,1,2023-06-01,Sudeste,MG,Juiz de Fora,Pública,História,37.91,60.57,24.25,97.8,3198.83,35.92,Excelente
+2023,1,2023-06-01,Sudeste,ES,Vitória,Pública,História,70.13,97.83,24.99,60.2,5973.13,67.56,Excelente
+2023,1,2023-06-01,Sudeste,ES,Vila Velha,Privada,Ciências,71.63,89.67,21.42,36.4,5078.69,74.8,Alto
+2023,1,2023-06-01,Sudeste,ES,Serra,Privada,História,67.52,57.63,11.54,79.5,2010.95,87.47,Excelente
+2023,1,2023-06-01,Sul,PR,Curitiba,Pública,Português,81.82,70.65,22.29,57.6,2058.45,40.55,Médio
+2023,1,2023-06-01,Sul,PR,Londrina,Pública,História,75.21,94.03,30.0,69.0,2348.55,38.48,Médio
+2023,1,2023-06-01,Sul,SC,Florianópolis,Privada,História,91.22,92.85,26.34,66.7,5937.66,41.4,Baixo
+2023,1,2023-06-01,Sul,SC,Joinville,Pública,História,44.26,92.47,30.66,78.6,1670.92,61.6,Alto
+2023,1,2023-06-01,Sul,RS,Porto Alegre,Privada,Português,49.92,59.5,15.85,79.3,5636.57,84.06,Excelente
+2023,1,2023-06-01,Sul,RS,Caxias do Sul,Privada,Ciências,93.93,86.04,18.3,58.5,2844.98,89.15,Alto
+2023,2,2023-12-01,Norte,AM,Manaus,Pública,Geografia,58.94,69.09,26.62,40.7,5647.1,64.96,Médio
+2023,2,2023-12-01,Norte,PA,Belém,Privada,Matemática,74.21,92.71,26.49,52.2,4862.27,75.22,Médio
+2023,2,2023-12-01,Norte,PA,Santarém,Privada,Geografia,48.18,55.48,10.79,92.8,4997.74,67.12,Alto
+2023,2,2023-12-01,Norte,RO,Porto Velho,Pública,Matemática,70.72,66.19,22.26,71.9,5768.79,63.34,Baixo
+2023,2,2023-12-01,Norte,TO,Palmas,Privada,Ciências,59.69,60.2,28.39,60.0,3258.21,37.67,Alto
+2023,2,2023-12-01,Nordeste,BA,Salvador,Pública,Geografia,50.25,84.07,28.54,75.0,4928.45,60.41,Alto
+2023,2,2023-12-01,Nordeste,BA,Feira de Santana,Privada,Matemática,83.03,63.58,21.12,62.8,2093.71,66.72,Médio
+2023,2,2023-12-01,Nordeste,PE,Recife,Privada,História,43.77,71.13,17.38,35.0,2920.09,67.67,Médio
+2023,2,2023-12-01,Nordeste,PE,Jaboatão dos Guararapes,Privada,Matemática,56.82,75.85,30.86,40.7,4762.02,89.15,Excelente
+2023,2,2023-12-01,Nordeste,CE,Fortaleza,Pública,História,93.93,73.32,28.2,59.8,3745.52,78.71,Baixo
+2023,2,2023-12-01,Nordeste,CE,Juazeiro do Norte,Pública,Ciências,46.65,64.45,19.46,37.0,2656.02,92.12,Baixo
+2023,2,2023-12-01,Nordeste,MA,São Luís,Privada,Geografia,84.0,90.83,32.65,97.0,3265.95,51.57,Alto
+2023,2,2023-12-01,Nordeste,PB,João Pessoa,Pública,Matemática,39.75,76.29,22.96,81.8,4348.39,83.27,Alto
+2023,2,2023-12-01,Centro-Oeste,DF,Brasília,Privada,História,74.48,96.75,23.31,94.1,5196.27,72.06,Baixo
+2023,2,2023-12-01,Centro-Oeste,GO,Goiânia,Pública,Matemática,93.25,70.71,30.66,43.3,2024.02,87.36,Médio
+2023,2,2023-12-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Ciências,94.9,66.49,26.25,96.3,5114.71,42.22,Alto
+2023,2,2023-12-01,Centro-Oeste,MT,Cuiabá,Pública,História,76.68,59.98,13.49,39.4,4983.81,77.61,Baixo
+2023,2,2023-12-01,Centro-Oeste,MS,Campo Grande,Pública,Português,69.62,55.94,17.43,72.5,3816.19,83.77,Alto
+2023,2,2023-12-01,Sudeste,SP,São Paulo,Pública,Português,64.43,90.41,19.98,35.7,2801.94,92.82,Médio
+2023,2,2023-12-01,Sudeste,SP,Campinas,Privada,Matemática,56.54,95.85,26.1,52.6,1506.96,35.98,Excelente
+2023,2,2023-12-01,Sudeste,SP,Ribeirão Preto,Privada,Matemática,80.15,85.07,26.5,39.6,5148.08,44.73,Baixo
+2023,2,2023-12-01,Sudeste,RJ,Rio de Janeiro,Pública,Português,62.25,95.95,31.6,85.3,2047.59,82.46,Baixo
+2023,2,2023-12-01,Sudeste,RJ,Niterói,Privada,Ciências,62.76,86.33,10.86,78.9,1506.16,77.22,Excelente
+2023,2,2023-12-01,Sudeste,RJ,Nova Iguaçu,Privada,Geografia,90.15,57.07,18.32,74.7,3811.19,84.24,Baixo
+2023,2,2023-12-01,Sudeste,RJ,Petrópolis,Pública,Ciências,58.73,94.5,17.31,93.5,5495.54,71.24,Médio
+2023,2,2023-12-01,Sudeste,MG,Belo Horizonte,Privada,Ciências,64.87,64.65,28.35,62.5,5961.99,86.14,Médio
+2023,2,2023-12-01,Sudeste,MG,Uberlândia,Pública,Geografia,60.49,78.81,8.2,37.2,4542.81,50.37,Baixo
+2023,2,2023-12-01,Sudeste,MG,Juiz de Fora,Privada,Geografia,38.34,55.46,28.04,55.4,2404.2,43.05,Médio
+2023,2,2023-12-01,Sudeste,ES,Vitória,Privada,Geografia,84.56,68.9,5.37,94.6,3992.54,77.25,Excelente
+2023,2,2023-12-01,Sudeste,ES,Vila Velha,Pública,Matemática,82.59,83.58,27.88,39.8,5303.03,50.89,Baixo
+2023,2,2023-12-01,Sudeste,ES,Serra,Privada,Matemática,75.71,68.37,5.92,70.9,2578.6,73.81,Médio
+2023,2,2023-12-01,Sul,PR,Curitiba,Privada,Português,51.69,60.41,33.51,40.8,4282.69,36.0,Médio
+2023,2,2023-12-01,Sul,PR,Londrina,Privada,História,57.64,88.15,27.75,59.4,3914.54,37.62,Alto
+2023,2,2023-12-01,Sul,SC,Florianópolis,Pública,Português,74.58,56.23,1.5,83.6,3743.69,35.39,Excelente
+2023,2,2023-12-01,Sul,SC,Joinville,Privada,História,50.99,61.18,26.97,56.6,4381.7,45.07,Baixo
+2023,2,2023-12-01,Sul,RS,Porto Alegre,Privada,História,56.55,61.78,26.32,69.5,3161.39,62.08,Médio
+2023,2,2023-12-01,Sul,RS,Caxias do Sul,Privada,Português,79.5,98.38,30.46,55.4,2013.59,91.0,Baixo
+2024,1,2024-06-01,Norte,AM,Manaus,Privada,Geografia,81.89,68.48,24.88,69.3,2035.31,53.8,Alto
+2024,1,2024-06-01,Norte,PA,Belém,Privada,Geografia,73.79,71.47,9.92,41.6,4652.32,74.98,Excelente
+2024,1,2024-06-01,Norte,PA,Santarém,Pública,História,68.41,76.25,33.95,57.0,1980.12,55.89,Médio
+2024,1,2024-06-01,Norte,RO,Porto Velho,Privada,Ciências,40.38,80.98,18.28,36.2,2504.22,66.44,Baixo
+2024,1,2024-06-01,Norte,TO,Palmas,Pública,Ciências,76.41,71.32,2.8,43.4,4697.97,50.54,Alto
+2024,1,2024-06-01,Nordeste,BA,Salvador,Pública,História,86.25,94.38,31.01,62.3,2692.91,72.45,Médio
+2024,1,2024-06-01,Nordeste,BA,Feira de Santana,Privada,Geografia,78.74,59.54,2.83,75.8,5192.98,55.06,Baixo
+2024,1,2024-06-01,Nordeste,PE,Recife,Privada,História,93.88,93.72,29.05,72.2,1737.58,83.45,Baixo
+2024,1,2024-06-01,Nordeste,PE,Jaboatão dos Guararapes,Pública,Português,42.98,78.63,7.72,49.0,3035.9,75.34,Alto
+2024,1,2024-06-01,Nordeste,CE,Fortaleza,Pública,Matemática,84.49,71.37,24.6,66.7,4233.12,61.1,Excelente
+2024,1,2024-06-01,Nordeste,CE,Juazeiro do Norte,Pública,História,54.54,89.08,15.12,48.9,1901.73,70.86,Excelente
+2024,1,2024-06-01,Nordeste,MA,São Luís,Privada,Matemática,85.84,60.9,16.14,68.0,4665.33,72.02,Baixo
+2024,1,2024-06-01,Nordeste,PB,João Pessoa,Privada,Geografia,37.75,73.43,11.01,93.1,2145.33,87.1,Alto
+2024,1,2024-06-01,Centro-Oeste,DF,Brasília,Privada,Português,40.06,74.79,19.61,49.4,2749.17,59.69,Baixo
+2024,1,2024-06-01,Centro-Oeste,GO,Goiânia,Privada,Português,74.47,87.29,4.11,80.0,4667.38,46.89,Baixo
+2024,1,2024-06-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Matemática,94.83,84.15,19.06,77.6,5177.88,88.21,Excelente
+2024,1,2024-06-01,Centro-Oeste,MT,Cuiabá,Pública,Ciências,55.09,60.89,14.61,86.7,3884.28,70.14,Baixo
+2024,1,2024-06-01,Centro-Oeste,MS,Campo Grande,Privada,Ciências,60.54,81.49,2.05,67.2,3046.82,87.67,Baixo
+2024,1,2024-06-01,Sudeste,SP,São Paulo,Privada,Matemática,72.78,83.44,18.68,70.2,2326.13,39.86,Alto
+2024,1,2024-06-01,Sudeste,SP,Campinas,Pública,Geografia,88.24,56.19,31.33,54.9,2488.37,68.6,Médio
+2024,1,2024-06-01,Sudeste,SP,Ribeirão Preto,Privada,Geografia,88.43,62.04,27.3,95.6,2407.47,81.66,Baixo
+2024,1,2024-06-01,Sudeste,RJ,Rio de Janeiro,Privada,Geografia,37.31,66.56,12.08,36.9,1621.53,40.7,Médio
+2024,1,2024-06-01,Sudeste,RJ,Niterói,Pública,Geografia,59.75,98.72,28.22,50.4,4208.21,61.6,Excelente
+2024,1,2024-06-01,Sudeste,RJ,Nova Iguaçu,Pública,História,43.61,68.17,15.94,48.0,2630.09,65.39,Baixo
+2024,1,2024-06-01,Sudeste,RJ,Petrópolis,Privada,Geografia,89.5,66.81,32.22,51.3,3352.57,55.85,Baixo
+2024,1,2024-06-01,Sudeste,MG,Belo Horizonte,Privada,Geografia,91.66,97.95,11.16,82.9,4709.69,89.4,Médio
+2024,1,2024-06-01,Sudeste,MG,Uberlândia,Privada,Geografia,80.9,82.57,16.57,65.1,2939.48,86.89,Médio
+2024,1,2024-06-01,Sudeste,MG,Juiz de Fora,Pública,Geografia,45.75,88.51,1.53,46.5,4407.6,57.21,Excelente
+2024,1,2024-06-01,Sudeste,ES,Vitória,Privada,História,66.54,68.42,1.44,81.2,2138.83,77.61,Alto
+2024,1,2024-06-01,Sudeste,ES,Vila Velha,Pública,Geografia,42.99,74.17,14.08,66.9,5388.96,68.05,Alto
+2024,1,2024-06-01,Sudeste,ES,Serra,Privada,Ciências,43.77,77.83,11.25,55.3,2046.41,81.78,Excelente
+2024,1,2024-06-01,Sul,PR,Curitiba,Pública,Geografia,82.38,92.19,19.09,78.8,2646.63,36.53,Médio
+2024,1,2024-06-01,Sul,PR,Londrina,Privada,Português,49.02,60.22,22.8,79.3,3604.05,63.73,Excelente
+2024,1,2024-06-01,Sul,SC,Florianópolis,Privada,História,92.25,97.27,23.51,51.4,5756.33,42.59,Alto
+2024,1,2024-06-01,Sul,SC,Joinville,Pública,Ciências,63.99,62.92,18.11,79.1,2560.8,36.33,Baixo
+2024,1,2024-06-01,Sul,RS,Porto Alegre,Privada,Ciências,55.59,69.58,24.72,78.2,4200.4,48.37,Médio
+2024,1,2024-06-01,Sul,RS,Caxias do Sul,Privada,História,79.42,67.12,29.8,40.3,3713.29,64.24,Médio
+2024,2,2024-12-01,Norte,AM,Manaus,Privada,Português,88.12,64.83,2.95,53.0,5861.17,67.43,Excelente
+2024,2,2024-12-01,Norte,PA,Belém,Privada,Ciências,49.7,91.8,31.99,35.3,1919.98,79.81,Alto
+2024,2,2024-12-01,Norte,PA,Santarém,Privada,Ciências,46.94,70.62,4.68,45.5,1845.36,73.99,Médio
+2024,2,2024-12-01,Norte,RO,Porto Velho,Pública,Matemática,48.94,72.67,31.44,51.2,4227.12,71.05,Baixo
+2024,2,2024-12-01,Norte,TO,Palmas,Pública,Matemática,41.25,84.19,19.13,54.7,5764.86,89.75,Baixo
+2024,2,2024-12-01,Nordeste,BA,Salvador,Privada,História,67.85,61.11,10.37,51.2,4478.83,88.73,Alto
+2024,2,2024-12-01,Nordeste,BA,Feira de Santana,Privada,Geografia,88.77,89.26,29.57,70.2,3483.7,73.01,Baixo
+2024,2,2024-12-01,Nordeste,PE,Recife,Pública,História,68.05,94.69,4.68,92.0,5172.18,39.81,Médio
+2024,2,2024-12-01,Nordeste,PE,Jaboatão dos Guararapes,Pública,Matemática,87.36,80.83,19.23,56.3,3498.72,43.47,Médio
+2024,2,2024-12-01,Nordeste,CE,Fortaleza,Pública,Português,42.26,77.7,31.81,79.9,1981.05,61.59,Baixo
+2024,2,2024-12-01,Nordeste,CE,Juazeiro do Norte,Pública,Matemática,69.36,86.43,34.12,86.2,5632.6,53.54,Baixo
+2024,2,2024-12-01,Nordeste,MA,São Luís,Privada,Geografia,68.66,65.05,5.4,48.7,5944.79,73.66,Baixo
+2024,2,2024-12-01,Nordeste,PB,João Pessoa,Pública,Matemática,49.97,68.64,3.53,37.9,5610.83,42.65,Excelente
+2024,2,2024-12-01,Centro-Oeste,DF,Brasília,Privada,Matemática,60.04,82.62,10.39,79.2,1722.65,85.0,Alto
+2024,2,2024-12-01,Centro-Oeste,GO,Goiânia,Privada,Geografia,39.8,56.93,31.26,97.3,1879.56,53.18,Alto
+2024,2,2024-12-01,Centro-Oeste,GO,Aparecida de Goiânia,Pública,Matemática,37.34,94.77,33.04,85.3,2308.52,39.47,Baixo
+2024,2,2024-12-01,Centro-Oeste,MT,Cuiabá,Pública,Português,49.64,67.16,25.0,74.9,2777.84,74.84,Médio
+2024,2,2024-12-01,Centro-Oeste,MS,Campo Grande,Pública,Ciências,91.69,91.15,27.43,57.2,5819.53,62.08,Alto
+2024,2,2024-12-01,Sudeste,SP,São Paulo,Privada,História,94.04,83.71,21.59,40.3,1521.26,75.07,Alto
+2024,2,2024-12-01,Sudeste,SP,Campinas,Privada,Matemática,92.95,82.15,3.99,82.8,5052.23,76.68,Baixo
+2024,2,2024-12-01,Sudeste,SP,Ribeirão Preto,Pública,Português,77.78,55.17,33.36,53.5,5313.85,92.91,Excelente
+2024,2,2024-12-01,Sudeste,RJ,Rio de Janeiro,Pública,Português,56.1,71.88,6.41,65.7,3880.14,37.65,Alto
+2024,2,2024-12-01,Sudeste,RJ,Niterói,Privada,Português,81.55,85.71,20.44,95.1,5486.39,81.63,Baixo
+2024,2,2024-12-01,Sudeste,RJ,Nova Iguaçu,Privada,Ciências,63.09,97.11,18.71,79.7,3362.7,86.17,Baixo
+2024,2,2024-12-01,Sudeste,RJ,Petrópolis,Privada,Ciências,70.19,97.2,15.35,76.3,4622.96,56.1,Excelente
+2024,2,2024-12-01,Sudeste,MG,Belo Horizonte,Pública,Ciências,76.17,64.58,26.01,93.4,5403.4,56.39,Alto
+2024,2,2024-12-01,Sudeste,MG,Uberlândia,Privada,História,38.18,75.98,3.06,52.0,4451.43,61.04,Médio
+2024,2,2024-12-01,Sudeste,MG,Juiz de Fora,Pública,Português,61.66,57.98,13.26,74.3,4074.11,86.11,Excelente
+2024,2,2024-12-01,Sudeste,ES,Vitória,Privada,Geografia,94.93,77.13,29.93,91.2,2233.38,95.0,Alto
+2024,2,2024-12-01,Sudeste,ES,Vila Velha,Privada,Ciências,56.39,82.75,7.73,42.1,5280.49,53.48,Médio
+2024,2,2024-12-01,Sudeste,ES,Serra,Privada,História,37.01,97.14,10.25,89.1,5321.69,80.65,Médio
+2024,2,2024-12-01,Sul,PR,Curitiba,Pública,História,82.43,87.55,14.67,87.2,3437.5,38.58,Alto
+2024,2,2024-12-01,Sul,PR,Londrina,Privada,Ciências,74.3,60.07,8.02,72.1,4794.23,93.04,Médio
+2024,2,2024-12-01,Sul,SC,Florianópolis,Pública,Português,38.51,74.61,1.29,78.2,5696.37,46.96,Baixo
+2024,2,2024-12-01,Sul,SC,Joinville,Pública,Português,71.03,88.83,23.77,66.1,4970.6,55.97,Baixo
+2024,2,2024-12-01,Sul,RS,Porto Alegre,Pública,Matemática,82.6,60.58,17.32,40.7,4686.52,77.27,Médio
+2024,2,2024-12-01,Sul,RS,Caxias do Sul,Privada,Ciências,36.07,60.73,5.44,93.6,1924.2,63.23,Baixo
