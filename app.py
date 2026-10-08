@@ -175,7 +175,7 @@ if df.empty:
 # --------------------------------------------------------------------------- #
 # KPIs
 # --------------------------------------------------------------------------- #
-st.header("📊 Indicadores-chave")
+st.header("Indicadores-chave")
 por_uf = df.groupby("uf")["indice_desempenho"].mean().sort_values(ascending=False)
 por_rede = df.groupby("rede_ensino")["media_notas"].mean().sort_values(ascending=False)
 por_disc = df.groupby("disciplina")["media_notas"].mean().sort_values()
@@ -193,7 +193,7 @@ metrica = st.radio("Métrica dos gráficos", ["media_notas", "indice_desempenho"
 # --------------------------------------------------------------------------- #
 # 1. Evolução temporal (linha + média móvel)
 # --------------------------------------------------------------------------- #
-st.header("📈 Evolução temporal")
+st.header("Evolução temporal")
 serie = df.groupby(["ano", "semestre", "periodo"])[metrica].mean().reset_index().sort_values(["ano", "semestre"])
 janela = st.slider("Janela da média móvel (semestres)", 1, 6, 4)
 serie["media_movel"] = serie[metrica].rolling(janela, min_periods=1).mean()
@@ -228,7 +228,7 @@ with c2:
 # --------------------------------------------------------------------------- #
 # 2. Comparação regional e por estado
 # --------------------------------------------------------------------------- #
-st.header("🗺️ Comparação regional")
+st.header("Comparação regional")
 rank = df.groupby(["uf", "regiao"], observed=True)[metrica].mean().reset_index().sort_values(metrica, ascending=False)
 c1, c2 = st.columns([1.2, 1])
 with c1:
@@ -249,7 +249,7 @@ with c2:
 # --------------------------------------------------------------------------- #
 # 3. Redes de ensino e disciplinas
 # --------------------------------------------------------------------------- #
-st.header("🏫 Redes de ensino e disciplinas")
+st.header("Redes de ensino e disciplinas")
 c1, c2 = st.columns(2)
 with c1:
     disc = df.groupby(["disciplina", "rede_ensino"])[metrica].mean().reset_index()
@@ -267,7 +267,7 @@ st.dataframe(tabela_disc.style.format("{:.1f}").background_gradient(subset=["Mé
 # --------------------------------------------------------------------------- #
 # 4. Fatores socioeconômicos e correlação
 # --------------------------------------------------------------------------- #
-st.header("💰 Renda, internet e correlação")
+st.header("Renda, internet e correlação")
 c1, c2 = st.columns(2)
 for coluna, (x, titulo) in zip((c1, c2), [("renda_media_familiar", "Renda × notas"), ("acesso_internet", "Internet × notas")]):
     with coluna:
@@ -300,7 +300,7 @@ with c2:
 # --------------------------------------------------------------------------- #
 # 5. Tabela dinâmica e dados
 # --------------------------------------------------------------------------- #
-st.header("📋 Tabela dinâmica")
+st.header("Tabela dinâmica")
 c1, c2, c3 = st.columns(3)
 linhas = c1.multiselect("Linhas", ["regiao", "uf", "rede_ensino", "disciplina", "nivel_desempenho", "ano"], default=["regiao", "rede_ensino"], format_func=lambda c: ROTULOS.get(c, c))
 colunas = c2.selectbox("Colunas", [None, "ano", "semestre", "rede_ensino", "disciplina", "nivel_desempenho"], format_func=lambda c: "— nenhuma —" if c is None else ROTULOS.get(c, c))
@@ -311,12 +311,12 @@ if linhas:
 
 with st.expander("Ver dados filtrados"):
     st.dataframe(df.drop(columns=["data"]), width="stretch", hide_index=True)
-    st.download_button("⬇️ Baixar CSV filtrado", df.to_csv(index=False).encode("utf-8-sig"), "desempenho_escolar_filtrado.csv", "text/csv")
+    st.download_button("Baixar CSV filtrado", df.to_csv(index=False).encode("utf-8-sig"), "desempenho_escolar_filtrado.csv", "text/csv")
 
 # --------------------------------------------------------------------------- #
 # Interpretação e conclusão
 # --------------------------------------------------------------------------- #
-st.header("📝 Interpretação dos resultados")
+st.header("Interpretação dos resultados")
 variacao = serie[metrica].iloc[-1] - serie[metrica].iloc[0]
 tendencia = "melhora" if coef[0] > 0.05 else "piora" if coef[0] < -0.05 else "estabilidade"
 melhor, pior = rank.iloc[0], rank.iloc[-1]
@@ -348,7 +348,7 @@ st.markdown(
     """
 )
 
-st.header("🎯 Conclusão executiva")
+st.header("Conclusão executiva")
 st.success(
     f"""
     1. Para a seleção atual, a média geral das notas é **{df['media_notas'].mean():.1f}**, a taxa de aprovação **{df['taxa_aprovacao'].mean():.1f}%**
